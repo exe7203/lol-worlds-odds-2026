@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>LOL Worlds｜盤口研究室</title><style>
+:root{--bg:#0b1015;--panel:#111a22;--panel2:#16212b;--line:#273642;--text:#eaf0f3;--muted:#96a6b4;--mint:#96f2c9;--gold:#e9bd73;--red:#edab9e;--blue:#8db5ed;font-family:"Segoe UI","Microsoft JhengHei",sans-serif;color:var(--text);background:var(--bg)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% 0,#14312d66,transparent 42%),var(--bg)}button,input,select{font:inherit}button,a,input{outline-offset:5px}button{cursor:pointer}a{color:var(--mint)}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--mint)}.app{max-width:1440px;margin:auto;padding:0 48px}.mast{min-height:105px;display:flex;align-items:center;justify-content:space-between;gap:25px;border-bottom:1px solid var(--line)}.brand{display:flex;gap:16px;align-items:center}.brand-mark{display:grid;place-items:center;height:48px;width:48px;border:1px solid #76c7a7;color:var(--mint);font-size:27px;font-weight:800;transform:skew(-6deg)}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:600;color:var(--muted)}.brand-title{font-size:21px;font-weight:700;margin-top:5px}.badge{display:inline-block;vertical-align:middle;font-size:11px;border:1px solid var(--line);padding:3px 7px;border-radius:3px;margin-left:12px;color:var(--muted);font-weight:400}.tools{display:flex;gap:9px;flex-wrap:wrap}.button{padding:10px 17px;border:1px solid var(--mint);border-radius:5px;background:var(--mint);font-weight:600;color:#092015;font-size:13px}.button.secondary{background:transparent;color:var(--text);border-color:var(--line)}.button:hover{filter:brightness(1.12)}.hero{display:flex;align-items:center;justify-content:space-between;gap:35px;padding:53px 0 42px}.mint{color:var(--mint)}h1{font-size:clamp(32px,3.6vw,49px);line-height:1.3;letter-spacing:1px;margin:15px 0 18px;font-weight:650}.hero p{max-width:600px;font-size:14px;color:var(--muted);line-height:1.8}.hero-note{padding:20px 23px;max-width:290px;min-width:250px;border-left:2px solid var(--mint);background:linear-gradient(90deg,#96f2c909,transparent);font-size:12px;color:var(--mint)}.hero-note strong{display:block;font-size:18px;margin:12px 0;color:var(--text);font-weight:500}.hero-note small{display:block;color:var(--muted);font-size:11px;line-height:1.8}.status-dot{display:inline-block;width:7px;height:7px;border-radius:100%;background:var(--mint);margin-right:8px}.tabs{display:flex;gap:30px;border-bottom:1px solid var(--line);margin-bottom:25px;overflow-x:auto}.tab{white-space:nowrap;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);font-weight:600;font-size:14px;padding:15px 1px}.tab.active{color:var(--mint);border-bottom-color:var(--mint)}[hidden]{display:none!important}.notice{padding:13px 16px;border:1px solid #5b4a2d;background:#e9bd7308;color:#d4c2a6;font-size:12px;line-height:1.7;margin:18px 0;border-radius:4px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;border:1px solid var(--line);background:var(--line);border-radius:6px;overflow:hidden;margin:24px 0 32px}.stat{background:var(--panel);padding:20px 23px}.stat-label{font-size:12px;color:var(--muted)}.stat strong{display:block;font-size:29px;margin:7px 0;font-weight:550}.stat small{font-size:11px;color:var(--muted)}h2{font-size:22px;font-weight:600;margin:8px 0 10px}h3{font-size:17px;font-weight:550}.section-row{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:26px 0 18px}.section-row p{font-size:12px;line-height:1.8}.search{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px}.search input{width:215px;background:#101920;border:1px solid var(--line);color:var(--text);border-radius:4px;padding:11px 13px}.match-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.match-card{text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:18px;color:var(--text);transition:background .15s,border .15s;min-height:192px}.match-card:hover{background:#182630}.match-card.selected{border-color:var(--mint);background:#152722}.card-top{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:10px;margin-bottom:20px}.pill{font-size:10px;background:#ffffff09;border:1px solid var(--line);padding:3px 6px;border-radius:3px;white-space:nowrap}.teams{display:flex;align-items:center;justify-content:space-between;gap:8px}.team-short{font-size:24px;font-weight:650;letter-spacing:.4px}.versus{font-size:10px;color:var(--muted);font-weight:500}.prob-pair{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin:11px 0 8px;font-variant-numeric:tabular-nums}.bar{height:4px;border-radius:3px;background:var(--blue);overflow:hidden}.bar i{display:block;height:100%;background:var(--mint)}.card-bottom{display:flex;justify-content:space-between;gap:8px;font-size:10px;color:var(--muted);margin-top:12px}.detail{border:1px solid var(--line);background:var(--panel);border-radius:6px;margin:22px 0 30px;padding:25px}.detail-head{display:flex;justify-content:space-between;gap:18px;align-items:start;margin-bottom:20px}.detail-title{font-size:24px;font-weight:600;margin:8px 0}.detail .muted{line-height:1.8;font-size:12px}.table-wrap{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:5px}table{border-collapse:collapse;width:100%;min-width:600px;font-size:13px}th{text-align:left;font-weight:500;color:var(--muted);font-size:11px;letter-spacing:.5px;background:#0c141b;padding:14px 16px;white-space:nowrap}td{padding:15px 16px;border-top:1px solid var(--line);vertical-align:top;line-height:1.6}td small{display:block;color:var(--muted);font-size:10px}.num{font-variant-numeric:tabular-nums}.positive{color:var(--mint)}.warn{color:var(--gold)}.muted{color:var(--muted)}.analysis{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;margin-top:21px}.analysis-card{padding:17px 19px;background:#0b141c;border:1px solid var(--line);border-radius:4px}.analysis-card h3{margin:0 0 10px;font-size:13px;color:var(--mint)}.analysis-card p{margin:7px 0;font-size:12px;line-height:1.85;color:#c4cfd8}.source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.source{padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:5px}.source-top{display:flex;align-items:center;justify-content:space-between;gap:13px}.source h3{margin:0}.source p{font-size:12px;line-height:1.8;color:var(--muted)}.source .meta{font-size:11px;line-height:1.9;color:var(--muted)}.source a{font-size:12px;display:inline-block;margin-top:12px}.tag{font-size:10px;padding:4px 7px;border-radius:3px;background:#96f2c910;color:var(--mint);border:1px solid #96f2c930;white-space:nowrap}.tag.blocked,.tag.unavailable{color:var(--gold);background:#e9bd730a;border-color:#e9bd7333}.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.info{padding:27px;border:1px solid var(--line);border-radius:5px;background:var(--panel)}.info p{font-size:13px;color:var(--muted);line-height:1.95}.region-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:25px}.region-card{padding:20px;border:1px solid var(--line);background:var(--panel);border-radius:5px}.region-card strong{font-size:25px;display:block;margin:12px 0}.region-card p{font-size:11px;color:var(--muted);line-height:1.7}.empty{padding:40px;color:var(--muted);border:1px dashed var(--line);grid-column:1/-1}.history{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.history span{font-size:11px;color:var(--muted);border:1px solid var(--line);padding:5px 8px;border-radius:3px}footer{padding:28px 0;margin-top:32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;font-size:10px;letter-spacing:1px;color:var(--muted)}#toast{position:fixed;bottom:25px;left:50%;transform:translateX(-50%);background:var(--panel2);border:1px solid var(--mint);padding:15px 23px;border-radius:5px;box-shadow:0 8px 30px #0008;display:none;max-width:90vw;font-size:13px}.skip{position:absolute;top:-100px;left:20px;background:var(--mint);color:#071c15;padding:12px;z-index:10}.skip:focus{top:10px}
+@media(max-width:1100px){.app{padding:0 28px}.match-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:38px}.tools .button{padding:9px 12px}.region-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){.app{padding:0 17px}.mast{padding:20px 0;align-items:start;flex-direction:column;gap:18px}.tools{width:100%}.tools .button{flex:1;font-size:12px;padding:10px 8px}.hero{display:block;padding:29px 0 20px}.hero-note{margin-top:24px;max-width:none}.hero h1{font-size:35px}.tabs{gap:24px}.summary{grid-template-columns:repeat(2,1fr)}.stat{padding:16px}.stat strong{font-size:25px}.section-row{align-items:start;flex-direction:column;gap:12px}.search{width:100%}.search input{flex:1;min-width:0;width:auto}.match-grid{gap:10px}.match-card{padding:13px;min-height:180px}.card-top{font-size:9px;flex-wrap:wrap;margin-bottom:17px}.team-short{font-size:21px}.card-bottom{font-size:9px;flex-direction:column;gap:4px}.detail{padding:17px}.detail-head{flex-direction:column}.detail-title{font-size:23px}.analysis,.source-list,.guide-grid{grid-template-columns:1fr}.region-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.info{padding:21px}footer{flex-direction:column;line-height:1.8}.pill{font-size:9px}.source h3{font-size:15px}td,th{padding:12px}.hero p{font-size:13px}}
+</style></head>
+<body><a class="skip" href="#main">跳至主要內容</a><div class="app">
+<header class="mast"><div class="brand"><span class="brand-mark">W</span><div><span class="eyebrow">LEAGUE OF LEGENDS · WORLDS 2026</span><div class="brand-title">盤口研究室<span class="badge">公開快照版</span></div></div></div><div class="tools"><button id="importBtn" class="button secondary">匯入快照</button><button id="exportBtn" class="button secondary">匯出 JSON</button><button id="reportBtn" class="button">下載分析</button><input id="importFile" type="file" accept=".json,application/json" hidden></div></header>
+<div class="hero"><div><span class="eyebrow mint">THE MARKET'S VIEW</span><h1>讀懂盤口，<br>看見市場的判斷。</h1><p>比較各平台對同一場賽事的定價，保留來源與時間，觀察共識與分歧。</p></div><div class="hero-note"><span class="status-dot"></span><span>公開盤口快照</span><strong id="snapshotTime">讀取中</strong><small>顯示的是網頁觀測時間；盤價實際更新時間未必公開。</small></div></div>
+<nav class="tabs" aria-label="分析頁籤"><button class="tab active" data-tab="matches" aria-selected="true">賽事分析</button><button class="tab" data-tab="champions" aria-selected="false">冠軍與賽區</button><button class="tab" data-tab="sources" aria-selected="false">來源狀態</button><button class="tab" data-tab="guide" aria-selected="false">使用與方法</button></nav>
+<main id="main">
+<div id="notice" role="status"></div><section id="matches" class="panel"><div id="summary" class="summary"></div><div class="section-row"><div><span class="eyebrow">SWISS STAGE · ROUND 1</span><h2>瑞士輪首輪快照</h2></div><label class="search"><span>搜尋隊伍</span><input id="search" type="search" placeholder="例如 CFO、Gen.G" autocomplete="off"></label></div><div id="matchGrid" class="match-grid"></div><section id="detail" class="detail"></section></section>
+<section id="champions" class="panel" hidden><div class="section-row"><div><span class="eyebrow">OUTRIGHT MARKETS</span><h2>冠軍盤比較</h2><p class="muted">同一業者的地區版本分列。空白代表未取得；不完整市場不計算去水勝率。</p></div></div><div id="championTable" class="table-wrap"></div><div class="section-row"><div><span class="eyebrow">REGION OF WINNER</span><h2>賽區奪冠定價</h2></div></div><div id="regionTable"></div></section>
+<section id="sources" class="panel" hidden><div class="section-row"><div><span class="eyebrow">SOURCE TRANSPARENCY</span><h2>每筆數字都有出處</h2><p class="muted">讀取受限時保留最後成功快照，不替舊價格換上新的觀測時間。</p></div></div><div id="sourceList" class="source-list"></div></section>
+<section id="guide" class="panel" hidden><div class="guide-grid"><article class="info"><span class="eyebrow">01 / HOW TO USE</span><h2>資料與更新</h2><p>這個網站使用發布時附帶的公開盤口快照。切換對戰查看來源比較，或下載一份 Markdown 分析。</p><p>公開站台不會自行抓取新盤。維護者取得可核實的新資料後，需重新建置與發布。部署時間與資料整理時間不代表盤價更新時間。</p><p>你可以匯入符合格式的 JSON 快照。檔案只在目前瀏覽器頁面解析，不上傳、不寫回 GitHub；重新整理會恢復網站內附資料。需要保留時請匯出 JSON。</p></article><article class="info"><span class="eyebrow">02 / CALCULATION</span><h2>機率怎麼算</h2><p>原始隱含機率 = 1 ÷ 十進位賠率。</p><p>完整市場的比例去水機率 = 該選項隱含機率 ÷ 所有選項隱含機率總和。</p><p>隱含機率總和減 1 是 overround（報價超額率），不等於業者實際利潤。冠軍盤缺選項時無法計算完整市場去水機率。</p></article><article class="info"><span class="eyebrow">03 / COMPARABILITY</span><h2>先比較同一件事</h2><p>只將同場比賽、同一盤型、同一期間與讓分線的完整市場放在一起。不同業者先各自去水，再比較。</p><p>同一 operatorGroup 的不同地區版本只算一家。來源不足兩家時標為單一業者；市場機率不是獨立戰力預測。</p><p>盤價時間未同步時，差異可能來自更新時間。讀取時間不是開盤時間，單次快照也不能推斷資金流向。</p></article><article class="info"><span class="eyebrow">04 / DATA RECORD</span><h2>來源與分析邊界</h2><p>目前含 8 場首輪對戰與 13 個市場。實際有報價的業者為 3 家，只有 2 場可跨業者比較；來源清單不等於已接通的業者數。</p><p>來源受限與未開出可比較價格都會如實呈現。未取得的價格不補值，也不把業者報價當作某個國家的民意。</p><p>這是賽事市場研究工具。尚未納入獨立的陣容、版本、藍紅方與戰績模型。</p></article></div></section>
+</main><footer><span>LOL WORLDS / MARKET RESEARCH</span><span>公開來源 · 本機資料 · 比例去水估計</span></footer></div><div id="toast" role="status" aria-live="polite"></div>
+<script>(function (global) {
+  'use strict';
+
+  var SOURCE_KINDS = ['sportsbook', 'official_article'];
+  var SOURCE_STATUSES = ['snapshot', 'blocked', 'unavailable'];
+  var MARKET_TYPES = ['match_winner', 'outright', 'region_winner'];
+  var EXCLUDED_TEXT = /(?:binance|polymarket|kalshi|crypto(?:currency)?|bitcoin|ethereum|blockchain|prediction[\s_-]*market|預測市場|加密貨幣|幣安)/i;
+  var EXCLUDED_HOST = /(?:^|\.)(?:binance\.[a-z.]+|polymarket\.[a-z.]+|kalshi\.[a-z.]+)$/i;
+  var ID = /^[a-zA-Z0-9][a-zA-Z0-9._:-]{0,127}$/;
+
+  function object(value) { return value !== null && typeof value === 'object' && !Array.isArray(value); }
+  function nonempty(value) { return typeof value === 'string' && value.trim().length > 0; }
+  function finiteOdds(value) { return typeof value === 'number' && Number.isFinite(value) && value > 1; }
+  function validId(value) { return typeof value === 'string' && ID.test(value); }
+  function isoDate(value) {
+    if (typeof value !== 'string') return false;
+    var m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.(\d{1,3}))?(Z|([+-])(\d{2}):(\d{2}))$/.exec(value);
+    if (!m) return false;
+    var year = +m[1], month = +m[2], day = +m[3], hour = +m[4], minute = +m[5], second = +m[6];
+    if (year < 1000 || month < 1 || month > 12 || day < 1 || hour > 23 || minute > 59 || second > 59) return false;
+    var maxDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
+    if (day > maxDay || (+m[10] || 0) > 14 || (+m[11] || 0) > 59 || (+m[10] === 14 && +m[11] !== 0)) return false;
+    return Number.isFinite(Date.parse(value));
+  }
+  function safeUrl(value) {
+    if (!nonempty(value) || value !== value.trim() || /[\u0000-\u0020\\]/.test(value)) return false;
+    try {
+      var u = new URL(value), host = u.hostname.toLowerCase();
+      if (u.protocol !== 'https:' || u.username || u.password || u.port && u.port !== '443') return false;
+      if (host.indexOf('.') < 0 || host === 'localhost' || /(?:^|\.)(?:localhost|local|internal|test|invalid)$/.test(host)) return false;
+      if (/^\d+(?:\.\d+){3}$/.test(host) || host.indexOf(':') !== -1) return false;
+      if (EXCLUDED_HOST.test(host) || EXCLUDED_TEXT.test(value)) return false;
+      return true;
+    } catch (_) { return false; }
+  }
+  function evidencePath(value) {
+    if (!nonempty(value) || value !== value.trim() || /[:\\?#\u0000-\u001f]/.test(value) || value[0] === '/') return false;
+    return value.split('/').every(function (part) { return part !== '' && part !== '.' && part !== '..'; });
+  }
+  function validateDataset(data) {
+    var errors = [];
+    function requireValue(ok, path, message) { if (!ok) errors.push(path + ': ' + message); }
+    function textField(value, path) { requireValue(nonempty(value), path, 'must be a nonempty string'); }
+    function idField(value, path) { requireValue(validId(value), path, 'must be a safe nonempty identifier'); }
+    function dateField(value, path, nullable) { requireValue(nullable && value === null || isoDate(value), path, nullable ? 'must be an ISO timestamp or null' : 'must be a valid ISO timestamp with timezone'); }
+    if (!object(data)) return { valid: false, errors: ['dataset: must be an object'] };
+    requireValue(data.schemaVersion === 1, 'schemaVersion', 'must equal 1');
+    dateField(data.generatedAt, 'generatedAt', false);
+    if (!object(data.tournament)) errors.push('tournament: must be an object');
+    else {
+      idField(data.tournament.id, 'tournament.id');
+      textField(data.tournament.name, 'tournament.name');
+      requireValue(Number.isInteger(data.tournament.season) && data.tournament.season >= 2011 && data.tournament.season <= 9999, 'tournament.season', 'must be an integer season');
+      requireValue(safeUrl(data.tournament.officialUrl), 'tournament.officialUrl', 'must be a public HTTPS URL and must not use an excluded source');
+      textField(data.tournament.timeZone, 'tournament.timeZone');
+      if (nonempty(data.tournament.timeZone)) {
+        try { new Intl.DateTimeFormat('en', { timeZone: data.tournament.timeZone }); }
+        catch (_) { errors.push('tournament.timeZone: must be a recognized timezone'); }
+      }
+    }
+    ['sources', 'events', 'markets'].forEach(function (key) {
+      requireValue(Array.isArray(data[key]), key, 'must be an array');
+    });
+    if (!Array.isArray(data.sources) || !Array.isArray(data.events) || !Array.isArray(data.markets)) return { valid: false, errors: errors };
+    var sources = new Map(), events = new Map(), marketIds = new Set();
+    data.sources.forEach(function (source, index) {
+      var p = 'sources[' + index + ']';
+      if (!object(source)) { errors.push(p + ': must be an object'); return; }
+      idField(source.id, p + '.id');
+      requireValue(!sources.has(source.id), p + '.id', 'duplicate source identifier');
+      sources.set(source.id, source);
+      ['operator', 'operatorGroup', 'region', 'label', 'note'].forEach(function (key) { textField(source[key], p + '.' + key); });
+      requireValue(!EXCLUDED_TEXT.test([source.id, source.operator, source.operatorGroup, source.label].join(' ')), p, 'excluded operators, crypto and prediction markets are not allowed');
+      requireValue(safeUrl(source.url), p + '.url', 'must be a public HTTPS URL and must not use an excluded source');
+      requireValue(SOURCE_KINDS.indexOf(source.kind) !== -1, p + '.kind', 'unsupported source kind');
+      requireValue(SOURCE_STATUSES.indexOf(source.status) !== -1, p + '.status', 'unsupported source status');
+      dateField(source.lastCheckedAt, p + '.lastCheckedAt', false);
+      dateField(source.lastSuccessAt, p + '.lastSuccessAt', true);
+      if (source.publishedAt !== undefined) dateField(source.publishedAt, p + '.publishedAt', true);
+      if (source.status === 'snapshot') requireValue(isoDate(source.lastSuccessAt), p + '.lastSuccessAt', 'snapshot source requires a successful observation timestamp');
+      if (isoDate(source.lastCheckedAt) && isoDate(source.lastSuccessAt)) requireValue(Date.parse(source.lastSuccessAt) <= Date.parse(source.lastCheckedAt), p + '.lastSuccessAt', 'must not be later than lastCheckedAt');
+    });
+    data.events.forEach(function (event, index) {
+      var p = 'events[' + index + ']';
+      if (!object(event)) { errors.push(p + ': must be an object'); return; }
+      idField(event.id, p + '.id');
+      requireValue(!events.has(event.id), p + '.id', 'duplicate event identifier');
+      events.set(event.id, event);
+      ['name', 'stage', 'format', 'status'].forEach(function (key) { textField(event[key], p + '.' + key); });
+      dateField(event.startsAt, p + '.startsAt', true);
+      requireValue(Array.isArray(event.teams) && event.teams.length === 2, p + '.teams', 'must contain exactly two teams');
+      if (Array.isArray(event.teams)) {
+        var teamIds = new Set();
+        event.teams.forEach(function (team, teamIndex) {
+          var q = p + '.teams[' + teamIndex + ']';
+          if (!object(team)) { errors.push(q + ': must be an object'); return; }
+          idField(team.id, q + '.id');
+          requireValue(!teamIds.has(team.id), q + '.id', 'duplicate team identifier');
+          teamIds.add(team.id);
+          textField(team.name, q + '.name');
+          textField(team.region, q + '.region');
+        });
+      }
+    });
+    data.markets.forEach(function (market, index) {
+      var p = 'markets[' + index + ']';
+      if (!object(market)) { errors.push(p + ': must be an object'); return; }
+      idField(market.id, p + '.id');
+      requireValue(!marketIds.has(market.id), p + '.id', 'duplicate market identifier');
+      marketIds.add(market.id);
+      requireValue(market.eventId === null || validId(market.eventId) && events.has(market.eventId), p + '.eventId', 'must be null or reference an existing event');
+      requireValue(MARKET_TYPES.indexOf(market.type) !== -1, p + '.type', 'unsupported market type');
+      requireValue(market.period === (market.type === 'match_winner' ? 'match' : 'tournament'), p + '.period', 'does not match the supported winner market type');
+      requireValue(market.line === null, p + '.line', 'winner markets must use null line');
+      requireValue(sources.has(market.sourceId), p + '.sourceId', 'must reference an existing source');
+      var source = sources.get(market.sourceId);
+      if (source) {
+        requireValue(isoDate(source.lastSuccessAt), p + '.sourceId', 'priced markets require a valid lastSuccessAt, including retained historical prices');
+        if (isoDate(market.observedAt) && isoDate(source.lastSuccessAt)) requireValue(Date.parse(market.observedAt) <= Date.parse(source.lastSuccessAt), p + '.observedAt', 'must not be later than the source lastSuccessAt');
+        if (isoDate(market.observedAt) && isoDate(source.lastCheckedAt)) requireValue(Date.parse(market.observedAt) <= Date.parse(source.lastCheckedAt), p + '.observedAt', 'must not be later than the source lastCheckedAt');
+      }
+      dateField(market.observedAt, p + '.observedAt', false);
+      dateField(market.sourceUpdatedAt, p + '.sourceUpdatedAt', true);
+      requireValue(typeof market.complete === 'boolean', p + '.complete', 'must be a boolean');
+      requireValue(Array.isArray(market.selections) && market.selections.length > 0, p + '.selections', 'must contain at least one priced selection');
+      var selectionIds = new Set();
+      if (Array.isArray(market.selections)) {
+        market.selections.forEach(function (selection, selectionIndex) {
+          var q = p + '.selections[' + selectionIndex + ']';
+          if (!object(selection)) { errors.push(q + ': must be an object'); return; }
+          idField(selection.id, q + '.id');
+          requireValue(!selectionIds.has(selection.id), q + '.id', 'duplicate selection identifier');
+          selectionIds.add(selection.id);
+          textField(selection.label, q + '.label');
+          requireValue(finiteOdds(selection.oddsDecimal), q + '.oddsDecimal', 'must be a finite number greater than 1; missing prices must be omitted');
+          textField(selection.rawOdds, q + '.rawOdds');
+        });
+        if (market.complete) requireValue(market.selections.length >= 2, p + '.selections', 'complete market requires at least two selections');
+      }
+      if (market.type === 'match_winner') {
+        requireValue(market.eventId !== null && events.has(market.eventId), p + '.eventId', 'match winner requires an existing event');
+        var event = events.get(market.eventId);
+        if (market.complete) requireValue(Array.isArray(market.selections) && market.selections.length === 2, p + '.selections', 'complete two-team match market requires both sides');
+        if (event && Array.isArray(event.teams)) {
+          var allowedTeams = event.teams.filter(object).map(function (team) { return team.id; });
+          selectionIds.forEach(function (id) { requireValue(allowedTeams.indexOf(id) !== -1, p + '.selections', 'selection must match an event team identifier'); });
+        }
+      }
+      if (!object(market.evidence)) errors.push(p + '.evidence: must be an object');
+      else {
+        requireValue(evidencePath(market.evidence.path), p + '.evidence.path', 'must be a safe relative evidence file path');
+        textField(market.evidence.captureMethod, p + '.evidence.captureMethod');
+        requireValue(typeof market.evidence.asOfKnown === 'boolean', p + '.evidence.asOfKnown', 'must be an explicit boolean');
+      }
+    });
+    return { valid: errors.length === 0, errors: errors };
+  }
+  function assertDataset(data) {
+    var result = validateDataset(data);
+    if (!result.valid) throw new TypeError('Invalid dataset: ' + result.errors.join('; '));
+  }
+  function assertMarket(market) {
+    if (!object(market) || typeof market.complete !== 'boolean' || !Array.isArray(market.selections) || !market.selections.length) throw new TypeError('Market requires selections and an explicit complete flag');
+    var ids = new Set();
+    market.selections.forEach(function (selection) {
+      if (!object(selection) || !validId(selection.id) || !nonempty(selection.label) || !finiteOdds(selection.oddsDecimal) || ids.has(selection.id)) throw new TypeError('Market contains missing, invalid or duplicate selections');
+      ids.add(selection.id);
+    });
+    if (market.complete && (market.selections.length < 2 || market.type === 'match_winner' && market.selections.length !== 2)) throw new TypeError('A complete market must contain every side');
+  }
+  function analyzeMarket(market) {
+    assertMarket(market);
+    var total = market.selections.reduce(function (sum, selection) { return sum + 1 / selection.oddsDecimal; }, 0);
+    var notes = [];
+    if (!market.complete) notes.push('Incomplete market: normalized probabilities and overround are unavailable.');
+    if (market.complete && total < 1 - 1e-10) notes.push('The complete market sums below 100%; check timing, transcription and whether all outcomes are present.');
+    if (market.complete) notes.push('Proportional normalization is a market estimate, not an independent forecast; overround is not realized bookmaker profit.');
+    return {
+      id: market.id, type: market.type, period: market.period, line: market.line,
+      complete: market.complete, totalImpliedProbability: total,
+      overround: market.complete ? total - 1 : null,
+      probabilities: market.selections.map(function (selection) {
+        return Object.assign({}, selection, {
+          impliedProbability: 1 / selection.oddsDecimal,
+          normalizedProbability: market.complete ? (1 / selection.oddsDecimal) / total : null
+        });
+      }),
+      notes: notes
+    };
+  }
+  function groupKey(market) {
+    return JSON.stringify([market.type, market.period, market.line, market.selections.map(function (s) { return s.id; }).sort()]);
+  }
+  function compareEvent(data, eventId) {
+    assertDataset(data);
+    if (!data.events.some(function (event) { return event.id === eventId; })) throw new RangeError('Unknown event: ' + eventId);
+    var sourceMap = new Map(data.sources.map(function (source) { return [source.id, source]; }));
+    var eventMarkets = data.markets.filter(function (market) { return market.eventId === eventId; });
+    var groups = new Map(), notes = [];
+    var analyzed = eventMarkets.map(function (market) {
+      var result = Object.assign({}, market, analyzeMarket(market), { source: sourceMap.get(market.sourceId) });
+      if (result.source.status !== 'snapshot') result.notes = result.notes.concat(['The latest source check is ' + result.source.status + '; these are retained historical prices observed at ' + market.observedAt + ', not a successful refresh.']);
+      if (market.complete) {
+        var key = groupKey(market);
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(result);
+      }
+      return result;
+    });
+    var operators = new Set();
+    var comparisonGroups = [];
+    groups.forEach(function (markets, key) {
+      var byOperator = new Map();
+      markets.forEach(function (market) {
+        var operatorKey = market.source.operatorGroup.trim().toLowerCase();
+        operators.add(operatorKey);
+        var previous = byOperator.get(operatorKey);
+        // Use the latest observation once per operator group; ties prefer a sportsbook.
+        var newer = !previous || Date.parse(market.observedAt) > Date.parse(previous.observedAt);
+        var tied = previous && Date.parse(market.observedAt) === Date.parse(previous.observedAt);
+        if (newer || tied && market.source.kind === 'sportsbook' && previous.source.kind !== 'sportsbook' || tied && market.source.kind === previous.source.kind && market.sourceId < previous.sourceId) byOperator.set(operatorKey, market);
+      });
+      var representatives = Array.from(byOperator.values());
+      var stats = markets[0].probabilities.map(function (selection) {
+        var values = representatives.map(function (market) {
+          return market.probabilities.find(function (p) { return p.id === selection.id; }).normalizedProbability;
+        });
+        return {
+          id: selection.id, label: selection.label,
+          minProbability: Math.min.apply(null, values),
+          maxProbability: Math.max.apply(null, values),
+          consensusProbability: values.reduce(function (sum, value) { return sum + value; }, 0) / values.length,
+          bookmakerCount: representatives.length
+        };
+      });
+      var groupNotes = [];
+      if (representatives.length < markets.length) groupNotes.push('Regional sites and articles in the same operatorGroup count once; the latest observation represents the group.');
+      if (representatives.length === 1) groupNotes.push('Only one independent operator group is available; this is not cross-bookmaker consensus.');
+      var times = markets.map(function (market) { return Date.parse(market.observedAt); });
+      if (Math.max.apply(null, times) !== Math.min.apply(null, times)) groupNotes.push('Observations have different timestamps; differences do not establish a simultaneous price discrepancy.');
+      if (markets.some(function (market) { return market.source.kind === 'official_article' || !market.evidence.asOfKnown; })) groupNotes.push('Article or observation snapshots are not verified executable current prices.');
+      comparisonGroups.push({
+        id: key, type: markets[0].type, period: markets[0].period, line: markets[0].line,
+        marketIds: markets.map(function (market) { return market.id; }),
+        representativeMarketIds: representatives.map(function (market) { return market.id; }),
+        operatorCount: representatives.length, selectionStats: stats, notes: groupNotes
+      });
+    });
+    if (analyzed.some(function (market) { return market.source.status !== 'snapshot'; })) notes.push('Some sources are currently blocked or unavailable; retained prices keep their original observation timestamps and are not refreshed prices.');
+    if (analyzed.some(function (market) { return !market.complete; })) notes.push('Incomplete markets remain visible but are excluded from normalized comparison.');
+    if (comparisonGroups.length > 1) notes.push('Different market types, periods, lines or selection sets are kept in separate comparisonGroups; top-level selectionStats is empty.');
+    if (!comparisonGroups.length) notes.push('No complete comparable market is available for this event.');
+    notes.push('Bookmaker region identifies the source edition, not national public opinion. Overround is not realized profit.');
+    return {
+      markets: analyzed,
+      selectionStats: comparisonGroups.length === 1 ? comparisonGroups[0].selectionStats : [],
+      operatorCount: operators.size,
+      comparisonGroups: comparisonGroups,
+      notes: notes
+    };
+  }
+  function championshipRows(data, type) {
+    assertDataset(data);
+    type = type === undefined ? 'outright' : type;
+    if (type !== 'outright' && type !== 'region_winner') throw new RangeError('Championship rows support outright or region_winner only');
+    var rows = new Map(), latest = new Map();
+    data.markets.filter(function (market) { return market.eventId === null && market.type === type && market.period === 'tournament' && market.line === null; }).forEach(function (market) {
+      var previous = latest.get(market.sourceId);
+      if (!previous || Date.parse(market.observedAt) > Date.parse(previous.observedAt)) latest.set(market.sourceId, market);
+    });
+    latest.forEach(function (market) {
+      analyzeMarket(market).probabilities.forEach(function (selection) {
+        if (!rows.has(selection.id)) rows.set(selection.id, { id: selection.id, label: selection.label, sources: Object.create(null) });
+        rows.get(selection.id).sources[market.sourceId] = {
+          oddsDecimal: selection.oddsDecimal,
+          impliedProbability: selection.impliedProbability,
+          normalizedProbability: selection.normalizedProbability
+        };
+      });
+    });
+    return Array.from(rows.values());
+  }
+  global.LolOddsCore = Object.freeze({
+    validateDataset: validateDataset,
+    analyzeMarket: analyzeMarket,
+    compareEvent: compareEvent,
+    championshipRows: championshipRows
+  });
+})(globalThis);
+</script><script>window.__LOL_DATA__={"schemaVersion":1,"tournament":{"id":"worlds-2026","name":"2026 League of Legends World Championship","season":2026,"officialUrl":"https://lolesports.com/en-GB/news/worlds-2026-primer","timeZone":"Asia/Taipei"},"generatedAt":"2026-10-20T01:58:18.500Z","sources":[{"id":"stake","operator":"Stake","operatorGroup":"stake","region":"International","label":"Stake 公開 BO1 盤口快照","url":"https://stake.com/sports/upcoming/league-of-legends","kind":"sportsbook","status":"blocked","lastCheckedAt":"2026-10-20T01:58:18.500Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"01:40 UTC 人工讀取成功；後續重讀回傳 HTTP 451。保留成功快照，不視為即時盤口。來源盤價更新時間未知。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。","provenanceNote":"01:40 UTC 人工讀取成功；後續重讀回傳 HTTP 451。保留成功快照，不視為即時盤口。來源盤價更新時間未知。"},{"id":"b365-uk","operator":"bet365","operatorGroup":"bet365","region":"GB","label":"bet365 英國官方文章快照","url":"https://news.bet365.com/en-gb/article/league-of-legends-world-championship-odds/2026101412003173393","kind":"official_article","status":"blocked","lastCheckedAt":"2026-10-20T01:58:11.626Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"正文原始時間標示：Updated 14 Oct 26 12:12；時區不明，未轉成 ISO。冠軍盤僅前 10 隊，並非完整盤；賽區冠軍盤完整 6 項。文章時間不等於盤價更新時間。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。","provenanceNote":"正文原始時間標示：Updated 14 Oct 26 12:12；時區不明，未轉成 ISO。冠軍盤僅前 10 隊，並非完整盤；賽區冠軍盤完整 6 項。文章時間不等於盤價更新時間。"},{"id":"b365-us","operator":"bet365","operatorGroup":"bet365","region":"US","label":"bet365 美國官方文章舊盤快照","url":"https://news.bet365.com/en-us/article/lol-worlds-2026-guide-schedule-teams-and-betting-odds/2026101515261441496","kind":"official_article","status":"blocked","lastCheckedAt":"2026-10-20T01:58:18.495Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"正文原始時間標示：Updated Oct 16 2026 14:05；時區不明，未轉成 ISO。19 隊冠軍表含入圍賽已淘汰隊伍，屬較舊文章價格，不能當作現行完整冠軍盤。與英國來源屬同一家 bet365。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。","provenanceNote":"正文原始時間標示：Updated Oct 16 2026 14:05；時區不明，未轉成 ISO。19 隊冠軍表含入圍賽已淘汰隊伍，屬較舊文章價格，不能當作現行完整冠軍盤。與英國來源屬同一家 bet365。"},{"id":"bettery-gen-ig","operator":"BETTERY","operatorGroup":"bettery","region":"RU","label":"BETTERY GEN–IG 公開盤快照","url":"https://bettery.ru/esports/category/lol/114724/69110401","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:58:18.497Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"公開雙邊獨贏價格人工快照；來源精準盤價更新時間未知。 本次手動讀取：parse_error。未確認指定 Worlds 對戰及 Исход 勝負市場邊界；可能只有 JavaScript 頁面殼。 保留最後成功觀測的舊快照。","provenanceNote":"公開雙邊獨贏價格人工快照；來源精準盤價更新時間未知。"},{"id":"bettery-tl-cfo","operator":"BETTERY","operatorGroup":"bettery","region":"RU","label":"BETTERY TL–CFO 公開盤快照","url":"https://bettery.ru/esports/category/lol/114724/69110403","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:58:18.499Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"公開雙邊獨贏價格人工快照；與另一 BETTERY 事件同屬一個莊家。 本次手動讀取：parse_error。未確認指定 Worlds 對戰及 Исход 勝負市場邊界；可能只有 JavaScript 頁面殼。 保留最後成功觀測的舊快照。","provenanceNote":"公開雙邊獨贏價格人工快照；與另一 BETTERY 事件同屬一個莊家。"},{"id":"riot-worlds-2026","operator":"Riot Games","operatorGroup":"riot","region":"Global","label":"LoL Esports 官方賽程與賽制","url":"https://lolesports.com/en-GB/news/worlds-2026-primer","kind":"official_article","status":"snapshot","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":"2026-10-20T01:40:00Z","publishedAt":null,"note":"官方 Worlds 2026 primer；瑞士制 10 月 23–31 日，首日台灣時間為 10 月 24 日。僅已核實之前五場填寫 startsAt。"},{"id":"taiwan-sportslottery","operator":"台灣運彩","operatorGroup":"taiwan-sportslottery","region":"TW","label":"台灣運彩：未取得可比盤價","url":"https://www.sportslottery.com.tw/sportsbook/daily-coupons","kind":"sportsbook","status":"blocked","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"網頁工具回傳 HTTP 403；無已核驗 Worlds 2026 市場，不建立市場。"},{"id":"sportsbet-au","operator":"Sportsbet","operatorGroup":"sportsbet","region":"AU","label":"Sportsbet 澳洲：未見本屆市場","url":"https://www.sportsbet.com.au/betting/e-sports","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"公開可讀內容未見本屆 Worlds 市場；未取得可比盤價。"},{"id":"ladbrokes-au","operator":"Ladbrokes","operatorGroup":"entain","region":"AU","label":"Ladbrokes 澳洲：僅取得頁面外殼","url":"https://www.ladbrokes.com.au/sports/esports","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"},{"id":"neds-au","operator":"Neds","operatorGroup":"entain","region":"AU","label":"Neds 澳洲：僅取得頁面外殼","url":"https://www.neds.com.au/sports/esports","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"},{"id":"pinnacle","operator":"Pinnacle","operatorGroup":"pinnacle","region":"International","label":"Pinnacle：僅取得頁面外殼","url":"https://www.pinnacle.com/en/esports/matchups/","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"},{"id":"paddypower","operator":"Paddy Power","operatorGroup":"paddypower","region":"GB/IE","label":"Paddy Power：地區存取受限","url":"https://www.paddypower.com/esports","kind":"sportsbook","status":"blocked","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"地區存取限制，未取得可比盤價。"},{"id":"betfair","operator":"Betfair","operatorGroup":"betfair","region":"GB/IE","label":"Betfair：未見本屆市場","url":"https://www.betfair.com/betting/esports/s-27454571","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"可讀內容未見本屆 Worlds 市場，未取得可比盤價。"},{"id":"unibet","operator":"Unibet","operatorGroup":"unibet","region":"International","label":"Unibet：工具不可讀","url":"https://www.unibet.com/betting/sports/filter/esports/league_of_legends/all/matches","kind":"sportsbook","status":"unavailable","lastCheckedAt":"2026-10-20T01:40:00Z","lastSuccessAt":null,"publishedAt":null,"note":"網頁工具無法讀取可核驗的市場內容。"}],"events":[{"id":"gen-ig","name":"GEN vs IG","stage":"瑞士制第 1 輪","format":"BO1","startsAt":"2026-10-23T17:00:00Z","teams":[{"id":"GEN","name":"GEN","region":"LCK"},{"id":"IG","name":"IG","region":"LPL"}],"status":"scheduled"},{"id":"tl-cfo","name":"TL vs CFO","stage":"瑞士制第 1 輪","format":"BO1","startsAt":"2026-10-23T18:00:00Z","teams":[{"id":"TL","name":"TL","region":"LCS"},{"id":"CFO","name":"CFO","region":"LCP"}],"status":"scheduled"},{"id":"al-kc","name":"AL vs KC","stage":"瑞士制第 1 輪","format":"BO1","startsAt":"2026-10-23T19:00:00Z","teams":[{"id":"AL","name":"AL","region":"LPL"},{"id":"KC","name":"KC","region":"LEC"}],"status":"scheduled"},{"id":"g2-dk","name":"G2 vs DK","stage":"瑞士制第 1 輪","format":"BO1","startsAt":"2026-10-23T20:00:00Z","teams":[{"id":"G2","name":"G2","region":"LEC"},{"id":"DK","name":"DK","region":"LCK"}],"status":"scheduled"},{"id":"hle-tes","name":"HLE vs TES","stage":"瑞士制第 1 輪","format":"BO1","startsAt":"2026-10-23T21:00:00Z","teams":[{"id":"HLE","name":"HLE","region":"LCK"},{"id":"TES","name":"TES","region":"LPL"}],"status":"scheduled"},{"id":"los-t1","name":"LOS vs T1","stage":"瑞士制第 1 輪","format":"BO1","startsAt":null,"teams":[{"id":"LOS","name":"LOS","region":"CBLOL"},{"id":"T1","name":"T1","region":"LCK"}],"status":"scheduled"},{"id":"tsw-lyon","name":"TSW vs LYON","stage":"瑞士制第 1 輪","format":"BO1","startsAt":null,"teams":[{"id":"TSW","name":"TSW","region":"LCP"},{"id":"LYON","name":"LYON","region":"LCS"}],"status":"scheduled"},{"id":"blg-mkoi","name":"BLG vs MKOI","stage":"瑞士制第 1 輪","format":"BO1","startsAt":null,"teams":[{"id":"BLG","name":"BLG","region":"LPL"},{"id":"MKOI","name":"MKOI","region":"LEC"}],"status":"scheduled"}],"markets":[{"id":"stake-gen-ig-match-winner","eventId":"gen-ig","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"GEN","label":"GEN","oddsDecimal":1.25,"rawOdds":"1.25"},{"id":"IG","label":"IG","oddsDecimal":4,"rawOdds":"4.00"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-tl-cfo-match-winner","eventId":"tl-cfo","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"TL","label":"TL","oddsDecimal":1.35,"rawOdds":"1.35"},{"id":"CFO","label":"CFO","oddsDecimal":3.2,"rawOdds":"3.20"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-al-kc-match-winner","eventId":"al-kc","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"AL","label":"AL","oddsDecimal":1.42,"rawOdds":"1.42"},{"id":"KC","label":"KC","oddsDecimal":2.9,"rawOdds":"2.90"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-g2-dk-match-winner","eventId":"g2-dk","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"G2","label":"G2","oddsDecimal":2.25,"rawOdds":"2.25"},{"id":"DK","label":"DK","oddsDecimal":1.65,"rawOdds":"1.65"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-hle-tes-match-winner","eventId":"hle-tes","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"HLE","label":"HLE","oddsDecimal":1.25,"rawOdds":"1.25"},{"id":"TES","label":"TES","oddsDecimal":4,"rawOdds":"4.00"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-los-t1-match-winner","eventId":"los-t1","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"LOS","label":"LOS","oddsDecimal":6,"rawOdds":"6.00"},{"id":"T1","label":"T1","oddsDecimal":1.13,"rawOdds":"1.13"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-tsw-lyon-match-winner","eventId":"tsw-lyon","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"TSW","label":"TSW","oddsDecimal":2.35,"rawOdds":"2.35"},{"id":"LYON","label":"LYON","oddsDecimal":1.6,"rawOdds":"1.60"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"stake-blg-mkoi-match-winner","eventId":"blg-mkoi","type":"match_winner","period":"match","line":null,"sourceId":"stake","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"BLG","label":"BLG","oddsDecimal":1.17,"rawOdds":"1.17"},{"id":"MKOI","label":"MKOI","oddsDecimal":5,"rawOdds":"5.00"}],"evidence":{"path":"data/evidence/stake.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"bettery-gen-ig-gen-ig-match-winner","eventId":"gen-ig","type":"match_winner","period":"match","line":null,"sourceId":"bettery-gen-ig","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"GEN","label":"GEN","oddsDecimal":1.2,"rawOdds":"1.20"},{"id":"IG","label":"IG","oddsDecimal":4,"rawOdds":"4.00"}],"evidence":{"path":"data/evidence/bettery-gen-ig.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"bettery-tl-cfo-tl-cfo-match-winner","eventId":"tl-cfo","type":"match_winner","period":"match","line":null,"sourceId":"bettery-tl-cfo","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"TL","label":"TL","oddsDecimal":1.33,"rawOdds":"1.33"},{"id":"CFO","label":"CFO","oddsDecimal":3,"rawOdds":"3.00"}],"evidence":{"path":"data/evidence/bettery-tl-cfo.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"b365-uk-outright","eventId":null,"type":"outright","period":"tournament","line":null,"sourceId":"b365-uk","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":false,"selections":[{"id":"GEN","label":"GEN","oddsDecimal":3.25,"rawOdds":"9/4"},{"id":"HLE","label":"HLE","oddsDecimal":4.5,"rawOdds":"7/2"},{"id":"T1","label":"T1","oddsDecimal":4.5,"rawOdds":"7/2"},{"id":"BLG","label":"BLG","oddsDecimal":5,"rawOdds":"4/1"},{"id":"AL","label":"AL","oddsDecimal":11,"rawOdds":"10/1"},{"id":"DK","label":"DK","oddsDecimal":13,"rawOdds":"12/1"},{"id":"G2","label":"G2","oddsDecimal":15,"rawOdds":"14/1"},{"id":"IG","label":"IG","oddsDecimal":21,"rawOdds":"20/1"},{"id":"TES","label":"TES","oddsDecimal":41,"rawOdds":"40/1"},{"id":"TL","label":"TL","oddsDecimal":41,"rawOdds":"40/1"}],"evidence":{"path":"data/evidence/b365-uk.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"b365-uk-region-winner","eventId":null,"type":"region_winner","period":"tournament","line":null,"sourceId":"b365-uk","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":true,"selections":[{"id":"LCK","label":"LCK","oddsDecimal":1.3636363636363638,"rawOdds":"4/11"},{"id":"LPL","label":"LPL","oddsDecimal":3.75,"rawOdds":"11/4"},{"id":"LEC","label":"LEC","oddsDecimal":13,"rawOdds":"12/1"},{"id":"LCS","label":"LCS","oddsDecimal":51,"rawOdds":"50/1"},{"id":"LCP","label":"LCP","oddsDecimal":67,"rawOdds":"66/1"},{"id":"CBLOL","label":"CBLOL","oddsDecimal":101,"rawOdds":"100/1"}],"evidence":{"path":"data/evidence/b365-uk.txt","captureMethod":"web-tool","asOfKnown":false}},{"id":"b365-us-outright","eventId":null,"type":"outright","period":"tournament","line":null,"sourceId":"b365-us","observedAt":"2026-10-20T01:40:00Z","sourceUpdatedAt":null,"complete":false,"selections":[{"id":"GEN","label":"GEN","oddsDecimal":3,"rawOdds":"+200"},{"id":"HLE","label":"HLE","oddsDecimal":4.5,"rawOdds":"+350"},{"id":"T1","label":"T1","oddsDecimal":4.5,"rawOdds":"+350"},{"id":"BLG","label":"BLG","oddsDecimal":5,"rawOdds":"+400"},{"id":"AL","label":"AL","oddsDecimal":10,"rawOdds":"+900"},{"id":"DK","label":"DK","oddsDecimal":13,"rawOdds":"+1200"},{"id":"G2","label":"G2","oddsDecimal":15,"rawOdds":"+1400"},{"id":"IG","label":"IG","oddsDecimal":19,"rawOdds":"+1800"},{"id":"LYON","label":"LYON","oddsDecimal":34,"rawOdds":"+3300"},{"id":"TES","label":"TES","oddsDecimal":15,"rawOdds":"+1400"},{"id":"TL","label":"TL","oddsDecimal":41,"rawOdds":"+4000"},{"id":"MKOI","label":"MKOI","oddsDecimal":51,"rawOdds":"+5000"},{"id":"TSW","label":"TSW","oddsDecimal":67,"rawOdds":"+6600"},{"id":"CFO","label":"CFO","oddsDecimal":81,"rawOdds":"+8000"},{"id":"LOS","label":"LOS","oddsDecimal":101,"rawOdds":"+10000"},{"id":"KC","label":"KC","oddsDecimal":126,"rawOdds":"+12500"},{"id":"C9","label":"C9","oddsDecimal":151,"rawOdds":"+15000"},{"id":"FUR","label":"FUR","oddsDecimal":176,"rawOdds":"+17500"},{"id":"MVK","label":"MVK","oddsDecimal":351,"rawOdds":"+35000"}],"evidence":{"path":"data/evidence/b365-us.txt","captureMethod":"web-tool","asOfKnown":false}}]};window.__LOL_HISTORY__=[];</script><script>(function(){
+'use strict';
+var C=globalThis.LolOddsCore;
+var data=window.__LOL_DATA__, history=window.__LOL_HISTORY__||[], selected='tl-cfo';
+var $=function(id){return document.getElementById(id);};
+var e=function(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+var pct=function(n){return typeof n==='number'&&Number.isFinite(n)?(n*100).toFixed(1)+'%':'—';};
+var odd=function(n){return typeof n==='number'&&Number.isFinite(n)?n.toFixed(2):'—';};
+var time=function(s){if(!s)return '未提供';var d=new Date(s);return Number.isNaN(d.getTime())?'未提供':d.toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});};
+var fullTime=function(s){return s?new Date(s).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false}):'未提供';};
+var safeLink=function(url,label){try{var u=new URL(url);if(u.protocol!=='https:')return e(label);}catch(x){return e(label);}return '<a href="'+e(url)+'" target="_blank" rel="noopener noreferrer">'+e(label)+'</a>';};
+var sourceStatus=function(s){return s.status==='blocked'?'讀取受限':s.status==='unavailable'?(s.lastSuccessAt?'沿用舊快照':'尚未取得'):s.status==='snapshot'?'已有快照':'待確認';};
+function notify(s){$('toast').textContent=s;$('toast').style.display='block';clearTimeout(notify.timer);notify.timer=setTimeout(function(){$('toast').style.display='none';},5500);}
+function getComparison(id){var raw=C.compareEvent(data,id);var ev=data.events.find(function(x){return x.id===id;});var ids=ev?ev.teams.map(function(t){return t.id;}).sort().join('|'):'';var g=(raw.comparisonGroups||[]).find(function(g){return g.type==='match_winner'&&g.period==='match'&&g.line===null&&g.selectionStats.map(function(s){return s.id;}).sort().join('|')===ids;});return Object.assign({},raw,{selectionStats:g?g.selectionStats:[],operatorCount:g?g.operatorCount:0});}
+function statFor(c,id){return (c.selectionStats||[]).find(function(s){return s.id===id;});}
+function sourceById(id){return data.sources.find(function(s){return s.id===id;})||{};}
+function summary(){
+ var withPrice=data.sources.filter(function(s){return data.markets.some(function(m){return m.sourceId===s.id;});});
+ var operators=new Set(withPrice.map(function(s){return s.operatorGroup||s.operator;}));
+ var multi=data.events.filter(function(ev){return getComparison(ev.id).operatorCount>=2;}).length;
+ var blocked=data.sources.filter(function(s){return s.status!=='snapshot';}).length;
+ $('summary').innerHTML=[['賽事快照',data.events.length,'瑞士輪首輪 · BO1'],['有價格的業者',operators.size,'同品牌的不同版本合併計數'],['可跨業者比較',multi,'只計完整且可比的勝負盤'],['來源待補',blocked,'受限、無目標盤或未能解析']].map(function(s){return '<div class="stat"><span class="stat-label">'+e(s[0])+'</span><strong>'+e(s[1])+'</strong><small>'+e(s[2])+'</small></div>';}).join('');
+ $('snapshotTime').textContent=data.markets.length?fullTime(new Date(Math.max.apply(null,data.markets.map(function(m){return new Date(m.observedAt).getTime();}))).toISOString())+' 台灣':'尚無價格觀測';
+ var last=data.markets.length?Math.max.apply(null,data.markets.map(function(m){return new Date(m.observedAt).getTime();})):Date.now();
+ var age=(Date.now()-last)/3600000;
+ $('notice').innerHTML='<div class="notice">資料為公開頁面的觀測快照。'+(age>24?'最近盤價觀測距今已超過 24 小時，請先更新再解讀。':'盤價實際更新時間未完整公開。')+' 部分來源目前受限，保留先前成功快照；請在「來源狀態」確認每筆資料的日期。</div>';
+}
+function cards(){
+ var q=$('search').value.trim().toLowerCase();
+ var evs=data.events.filter(function(ev){return !q||(ev.name+' '+ev.teams.map(function(t){return t.id+' '+t.name;}).join(' ')).toLowerCase().includes(q);});
+ $('matchGrid').innerHTML=evs.length?evs.map(function(ev){
+  var c=getComparison(ev.id), a=statFor(c,ev.teams[0].id),b=statFor(c,ev.teams[1].id),pa=a&&a.consensusProbability,pb=b&&b.consensusProbability;
+  var probability=typeof pa==='number'?Math.max(0,Math.min(100,pa*100)):0;var barHtml=typeof pa==='number'?'<div class="bar"><i style="width:'+probability+'%"></i></div>':'<div class="muted" style="font-size:11px">尚無完整雙邊盤</div>';
+  return '<button class="match-card '+(ev.id===selected?'selected':'')+'" data-match="'+e(ev.id)+'" aria-pressed="'+(ev.id===selected)+'" aria-label="'+e(ev.name)+'"><div class="card-top"><span>'+e(ev.startsAt?time(ev.startsAt)+' 台灣':'官方時間待確認')+'</span><span class="pill">'+e(ev.format)+'</span></div><div class="teams"><span class="team-short">'+e(ev.teams[0].id)+'</span><span class="versus">VS</span><span class="team-short">'+e(ev.teams[1].id)+'</span></div><div class="prob-pair"><span>'+pct(pa)+'</span><span>'+pct(pb)+'</span></div>'+barHtml+'<div class="card-bottom"><span>'+e(c.operatorCount>=2?c.operatorCount+' 家業者比較':c.operatorCount===1?'單一業者快照':'尚無完整市場')+'</span><span>比例去水估計</span></div></button>';
+ }).join(''):'<p class="empty">沒有符合的對戰，請換一個隊名。</p>';
+ document.querySelectorAll('[data-match]').forEach(function(btn){btn.addEventListener('click',function(){selected=btn.dataset.match;cards();detail();});});
+}
+function historyFor(ev){
+ var entries=[];
+ history.concat([data]).filter(function(d){var oldEvent=(d.events||[]).find(function(x){return x.id===ev.id;});return d.tournament.id===data.tournament.id&&d.tournament.season===data.tournament.season&&oldEvent&&oldEvent.teams.map(function(t){return t.id;}).sort().join('|')===ev.teams.map(function(t){return t.id;}).sort().join('|');}).forEach(function(d){
+  (d.markets||[]).filter(function(m){return m.eventId===ev.id&&m.type==='match_winner'&&m.period==='match'&&m.line===null&&m.complete;}).forEach(function(m){
+   var p=C.analyzeMarket(m).probabilities.find(function(x){return x.id===ev.teams[0].id;});
+   if(p&&typeof p.normalizedProbability==='number')entries.push({key:m.sourceId+'|'+m.observedAt,sourceId:m.sourceId,time:m.observedAt,p:p.normalizedProbability});
+  });
+ });
+ var unique=Array.from(new Map(entries.map(function(x){return [x.key,x];})).values()).sort(function(a,b){return new Date(a.time)-new Date(b.time);});
+ var perSource=new Map();unique.forEach(function(x){if(!perSource.has(x.sourceId))perSource.set(x.sourceId,[]);perSource.get(x.sourceId).push(x);});
+ var descriptions=[];
+ perSource.forEach(function(xs,id){if(xs.length>1){var first=xs[0],last=xs[xs.length-1];descriptions.push(e(sourceById(id).label||id)+'：'+time(first.time)+' → '+time(last.time)+'，'+e(ev.teams[0].id)+' '+pct(first.p)+' → '+pct(last.p)+'（不同觀測時間，非已知開盤價）');}});
+ return descriptions.length?'<div class="history">'+descriptions.map(function(t){return '<span>'+t+'</span>';}).join('')+'</div>':'<p class="muted">尚無同一來源的多次價格觀測，暫不判斷升降盤。</p>';
+}
+function detail(){
+ var ev=data.events.find(function(x){return x.id===selected;})||data.events[0];if(!ev){$('detail').innerHTML='<p>尚無賽事。</p>';return;}
+ var c=getComparison(ev.id),a=statFor(c,ev.teams[0].id),b=statFor(c,ev.teams[1].id);
+ var markets=(c.markets||[]).filter(function(m){return m.type==='match_winner'&&m.period==='match'&&m.line===null;});
+ var rows=markets.map(function(m){
+  var s=m.source||sourceById(m.sourceId), ps=m.probabilities||C.analyzeMarket(m).probabilities;
+  var one=ps.find(function(p){return p.id===ev.teams[0].id;}),two=ps.find(function(p){return p.id===ev.teams[1].id;});
+  return '<tr><td>'+e(s.label||s.id)+'<small>'+e(s.region)+' · '+e(s.kind==='official_article'?'官方文章':'公開賽事頁')+'</small></td><td class="num">'+odd(one&&one.oddsDecimal)+'<small>'+pct(one&&one.normalizedProbability)+'</small></td><td class="num">'+odd(two&&two.oddsDecimal)+'<small>'+pct(two&&two.normalizedProbability)+'</small></td><td class="num">'+pct(m.overround)+'<small>報價超額率</small></td><td>'+e(time(m.observedAt))+'<small>'+e(sourceStatus(s))+'</small></td><td>'+safeLink(s.url,'原始來源')+'</td></tr>';
+ }).join('');
+ var stronger=a&&b?(a.consensusProbability>=b.consensusProbability?a:b):null;
+ var spread=a&&typeof a.maxProbability==='number'?a.maxProbability-a.minProbability:null;
+ var insight=stronger?'這份快照較看好 '+e(stronger.id)+'，其比例去水估計為 '+pct(stronger.consensusProbability)+'。':'尚無足夠的完整盤口計算市場機率。';
+ var comparison=c.operatorCount>=2?'共 '+c.operatorCount+' 家業者；'+e(ev.teams[0].id)+' 的來源差異為 '+(spread*100).toFixed(1)+' 個百分點。':c.operatorCount===1?'目前只有一家業者，無法據此判斷跨平台共識。':'尚無完整的同場勝負盤，無法比較。';
+ var notes=(c.notes||[]).map(function(n){var s=String(n);if(s.includes('Some sources are currently'))s='部分來源受限，保留的是原觀測時間的價格，並未重新取得新價。';else if(s.includes('Bookmaker region identifies'))s='地區版本代表來源市場，不代表國家民意。報價超額率也不等於實際利潤。';else if(s.includes('Different market types'))s='已只比較本場完整的全場勝負盤；其他盤型分開保存。';else if(s.includes('No complete comparable market'))s='本場尚無完整且可比較的勝負盤。';else if(s.includes('Article or observation snapshots'))s='文章與觀測快照尚未確認為可成交的即時價格。';return '<p>'+e(s)+'</p>';}).join('');
+ $('detail').innerHTML='<div class="detail-head"><div><span class="eyebrow">MATCH DETAIL</span><h2 class="detail-title">'+e(ev.teams[0].name)+' <span class="muted">vs</span> '+e(ev.teams[1].name)+'</h2><p class="muted">'+e(ev.stage)+' · '+e(ev.format)+' · '+e(ev.startsAt?fullTime(ev.startsAt)+' 台灣':'官方時間待確認')+'</p></div><span class="tag">'+e(c.operatorCount>=2?'可跨業者比較':c.operatorCount===1?'單一業者':'尚無完整市場')+'</span></div><div class="table-wrap"><table><thead><tr><th>平台／地區版本</th><th>'+e(ev.teams[0].id)+' 賠率／機率</th><th>'+e(ev.teams[1].id)+' 賠率／機率</th><th>Overround</th><th>觀測時間（台灣）</th><th>證據</th></tr></thead><tbody>'+(rows||'<tr><td colspan="6">尚無可用價格</td></tr>')+'</tbody></table></div><div class="analysis"><article class="analysis-card"><h3>盤口解讀</h3><p>'+insight+'</p><p>'+comparison+'</p><p>這是報價反映的預期。未結合選手陣容、賽事版本與藍紅方，不能視作獨立預測。</p></article><article class="analysis-card"><h3>資料邊界</h3><p>各來源不保證同時更新。受限平台沿用先前觀測時間，不當成最新盤。</p>'+notes+'</article></div><h3>同來源觀測變化</h3>'+historyFor(ev);
+}
+function champions(){
+ var rows=C.championshipRows(data,'outright');
+ var ids=Array.from(new Set(data.markets.filter(function(m){return m.type==='outright';}).map(function(m){return m.sourceId;})));
+ rows.sort(function(a,b){var min=function(r){return Math.min.apply(null,Object.values(r.sources).map(function(v){return v.oddsDecimal;}));};return min(a)-min(b);});
+ var header=ids.map(function(id){var s=sourceById(id);var m=data.markets.filter(function(m){return m.type==='outright'&&m.sourceId===id;}).sort(function(a,b){return new Date(b.observedAt)-new Date(a.observedAt);})[0];return '<th>'+e(s.label)+'<br><small>'+e(m&&m.complete?'完整市場':'不完整市場')+' · '+e(m?time(m.observedAt):'未提供')+' 台灣</small></th>';}).join('');
+ $('championTable').innerHTML='<table><thead><tr><th>戰隊</th>'+header+'<th>比對提醒</th></tr></thead><tbody>'+rows.map(function(r){var values=Object.values(r.sources).map(function(x){return x.oddsDecimal;});var discrepancy=values.length>1&&Math.max.apply(null,values)/Math.min.apply(null,values)>=1.5;return '<tr><td>'+e(r.label)+'<small>'+e(r.id)+'</small></td>'+ids.map(function(id){var s=r.sources[id];return '<td class="num">'+(s?odd(s.oddsDecimal)+'<small>原始隱含 '+pct(s.impliedProbability)+'</small>':'—<small>未取得此選項</small>')+'</td>';}).join('')+'<td class="'+(discrepancy?'warn':'muted')+'">'+(discrepancy?'價格落差大，先複核時點':'同業地區版本，不算獨立樣本')+'</td></tr>';}).join('')+'</tbody></table>';
+ var regions=data.markets.filter(function(m){return m.type==='region_winner';});
+ $('regionTable').innerHTML=regions.map(function(m){var s=sourceById(m.sourceId);var a=C.analyzeMarket(m);return '<p class="muted">'+e(s.label)+' · '+e(time(m.observedAt))+' 台灣 · '+safeLink(s.url,'查看來源')+'</p><div class="region-grid">'+a.probabilities.map(function(p){return '<article class="region-card"><span class="eyebrow">'+e(p.label)+'</span><strong>'+pct(p.normalizedProbability)+'</strong><p>十進位賠率 '+odd(p.oddsDecimal)+'<br>'+e(m.complete?'完整賽區盤，比例去水估計':'市場不完整，未計去水')+'</p></article>';}).join('')+'</div>';}).join('')||'<p class="empty">尚無賽區冠軍盤。</p>';
+}
+function sources(){
+ $('sourceList').innerHTML=data.sources.map(function(s){var count=data.markets.filter(function(m){return m.sourceId===s.id;}).length;return '<article class="source"><div class="source-top"><h3>'+e(s.label)+'</h3><span class="tag '+e(s.status)+'">'+e(sourceStatus(s))+'</span></div><p>'+e(s.note||'未提供備註')+'</p><div class="meta">地區版本：'+e(s.region)+' · 業者群組：'+e(s.operatorGroup)+'<br>最後檢查：'+e(fullTime(s.lastCheckedAt))+' 台灣<br>最後成功觀測：'+e(fullTime(s.lastSuccessAt))+'<br>市場快照：'+count+' 筆'+(s.publishedAt?'<br>文章發布：'+e(fullTime(s.publishedAt)):'')+'</div>'+safeLink(s.url,'開啟官方來源 ↗')+'</article>';}).join('');
+}
+function render(){var result=C.validateDataset(data);if(!result.valid)throw new Error('資料驗證失敗：'+result.errors.join('；'));summary();cards();detail();champions();sources();}
+function download(text,name,type){var url=URL.createObjectURL(new Blob([text],{type:type}));var a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);}
+function report(){
+ var lines=['# LOL Worlds 盤口分析','', '資料整理時間：'+fullTime(data.generatedAt)+'（台灣）','', '公開盤口快照；比例去水估計不是獨立的戰力預測。',''];
+ data.events.forEach(function(ev){var c=getComparison(ev.id);lines.push('## '+ev.name,'','獨立業者數：'+c.operatorCount,'','| 來源 | '+ev.teams[0].id+' | '+ev.teams[1].id+' | 觀測時間（台灣） |','|---|---:|---:|---|');(c.markets||[]).filter(function(m){return m.type==='match_winner'&&m.period==='match'&&m.line===null;}).forEach(function(m){var s=m.source||sourceById(m.sourceId),ps=m.probabilities||C.analyzeMarket(m).probabilities;var a=ps.find(function(p){return p.id===ev.teams[0].id;}),b=ps.find(function(p){return p.id===ev.teams[1].id;});lines.push('| ['+s.label+']('+s.url+') | '+odd(a&&a.oddsDecimal)+' / '+pct(a&&a.normalizedProbability)+' | '+odd(b&&b.oddsDecimal)+' / '+pct(b&&b.normalizedProbability)+' | '+time(m.observedAt)+' |');});lines.push('','同來源多次觀測不足時，不判斷升降盤。','');});
+ lines.push('## 冠軍盤','','| 戰隊 | 來源 | 賠率 | 原始隱含機率 |','|---|---|---:|---:|');C.championshipRows(data).forEach(function(r){Object.entries(r.sources).forEach(function(item){var s=sourceById(item[0]),v=item[1];lines.push('| '+r.label+' | ['+s.label+']('+s.url+') | '+odd(v.oddsDecimal)+' | '+pct(v.impliedProbability)+' |');});});lines.push('','冠軍市場不完整，不做去水；同品牌地區版本不視作不同業者。','','## 來源缺口','');data.sources.filter(function(s){return s.status!=='snapshot';}).forEach(function(s){lines.push('- '+s.label+'：'+s.note);});return lines.join('\n');
+}
+document.querySelectorAll('[data-tab]').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.panel').forEach(function(p){p.hidden=p.id!==b.dataset.tab;});document.querySelectorAll('[data-tab]').forEach(function(t){var active=t===b;t.classList.toggle('active',active);t.setAttribute('aria-selected',String(active));});});});
+$('search').addEventListener('input',cards);
+$('importBtn').addEventListener('click',function(){$('importFile').click();});
+$('importFile').addEventListener('change',async function(){var f=this.files[0];if(!f)return;try{if(f.size>10*1024*1024)throw new Error('快照超過 10 MB。');var candidate=JSON.parse(await f.text());var v=C.validateDataset(candidate);if(!v.valid)throw new Error(v.errors.slice(0,3).join('；'));var previous=data;data=candidate;try{render();history=history.concat([previous]);if(!data.events.some(function(x){return x.id===selected;})){selected=data.events[0]?data.events[0].id:'';cards();detail();}}catch(x){data=previous;render();throw x;}notify('已匯入快照。若要保留此檔，請按「匯出 JSON」。');}catch(err){notify('無法匯入：'+err.message);}finally{this.value='';}});
+$('exportBtn').addEventListener('click',function(){download(JSON.stringify(data,null,2),'lol-worlds-snapshot.json','application/json');});
+$('reportBtn').addEventListener('click',function(){download(report(),'lol-worlds-analysis.md','text/markdown;charset=utf-8');});
+try{render();}catch(err){$('notice').textContent=err.message;console.error(err);}
+window.LolOddsApp={getData:function(){return data;},report:report,render:render};
+})();</script></body></html>
