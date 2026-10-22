@@ -7,7 +7,7 @@
     "officialUrl": "https://lolesports.com/en-GB/news/worlds-2026-primer",
     "timeZone": "Asia/Taipei"
   },
-  "generatedAt": "2026-10-20T01:58:18.500Z",
+  "generatedAt": "2026-10-22T01:29:14.471Z",
   "sources": [
     {
       "id": "stake",
@@ -17,12 +17,12 @@
       "label": "Stake 公開 BO1 盤口快照",
       "url": "https://stake.com/sports/upcoming/league-of-legends",
       "kind": "sportsbook",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-20T01:58:18.500Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:24:37Z",
+      "lastSuccessAt": "2026-10-22T01:24:37Z",
       "publishedAt": null,
-      "note": "01:40 UTC 人工讀取成功；後續重讀回傳 HTTP 451。保留成功快照，不視為即時盤口。來源盤價更新時間未知。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。",
-      "provenanceNote": "01:40 UTC 人工讀取成功；後續重讀回傳 HTTP 451。保留成功快照，不視為即時盤口。來源盤價更新時間未知。"
+      "note": "本次透過網頁文字工具讀取官方World Championship 2026完整雙邊Match Winner - Twoway。工具顯示Crawled today；觀測時間為讀取後記錄，精準盤價更新時間及可成交性未知。",
+      "provenanceNote": "本次透過網頁文字工具讀取官方World Championship 2026完整雙邊Match Winner - Twoway。工具顯示Crawled today；觀測時間為讀取後記錄，精準盤價更新時間及可成交性未知。"
     },
     {
       "id": "b365-uk",
@@ -32,11 +32,11 @@
       "label": "bet365 英國官方文章快照",
       "url": "https://news.bet365.com/en-gb/article/league-of-legends-world-championship-odds/2026101412003173393",
       "kind": "official_article",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-20T01:58:11.626Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
+      "lastSuccessAt": "2026-10-22T01:24:00Z",
       "publishedAt": null,
-      "note": "正文原始時間標示：Updated 14 Oct 26 12:12；時區不明，未轉成 ISO。冠軍盤僅前 10 隊，並非完整盤；賽區冠軍盤完整 6 項。文章時間不等於盤價更新時間。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。",
+      "note": "10月22日重新讀取官方文章。文章仍標Updated 14 Oct 26 12:12（時區未知）。完整6項賽區冠軍盤已更新；隊伍冠軍前10價格未變，仍保留10月20日觀測時間且不是完整市場。盤價實際更新時間未知。",
       "provenanceNote": "正文原始時間標示：Updated 14 Oct 26 12:12；時區不明，未轉成 ISO。冠軍盤僅前 10 隊，並非完整盤；賽區冠軍盤完整 6 項。文章時間不等於盤價更新時間。"
     },
     {
@@ -47,11 +47,11 @@
       "label": "bet365 美國官方文章舊盤快照",
       "url": "https://news.bet365.com/en-us/article/lol-worlds-2026-guide-schedule-teams-and-betting-odds/2026101515261441496",
       "kind": "official_article",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-20T01:58:18.495Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
+      "lastSuccessAt": "2026-10-22T01:24:00Z",
       "publishedAt": null,
-      "note": "正文原始時間標示：Updated Oct 16 2026 14:05；時區不明，未轉成 ISO。19 隊冠軍表含入圍賽已淘汰隊伍，屬較舊文章價格，不能當作現行完整冠軍盤。與英國來源屬同一家 bet365。 本次手動讀取：blocked。HTTP 403；本輪不重試，保留原快照由上層處理。 保留最後成功觀測的舊快照。",
+      "note": "10月22日重讀文章，仍標Updated Oct 16 2026 14:05（時區未知）；19隊冠軍表完全未變且含已淘汰隊伍。保留10月20日舊價格觀測時間，不能當作現行完整冠軍盤。與英國來源同屬bet365。",
       "provenanceNote": "正文原始時間標示：Updated Oct 16 2026 14:05；時區不明，未轉成 ISO。19 隊冠軍表含入圍賽已淘汰隊伍，屬較舊文章價格，不能當作現行完整冠軍盤。與英國來源屬同一家 bet365。"
     },
     {
@@ -63,10 +63,10 @@
       "url": "https://bettery.ru/esports/category/lol/114724/69110401",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:58:18.497Z",
+      "lastCheckedAt": "2026-10-22T01:22:28.881Z",
       "lastSuccessAt": "2026-10-20T01:40:00Z",
       "publishedAt": null,
-      "note": "公開雙邊獨贏價格人工快照；來源精準盤價更新時間未知。 本次手動讀取：parse_error。未確認指定 Worlds 對戰及 Исход 勝負市場邊界；可能只有 JavaScript 頁面殼。 保留最後成功觀測的舊快照。",
+      "note": "本輪僅可見昨日抓取的網頁快取；直接HTTP只有頁面殼。保留2026-10-20成功觀測的原價格，不把本次查核日期當成新價。",
       "provenanceNote": "公開雙邊獨贏價格人工快照；來源精準盤價更新時間未知。"
     },
     {
@@ -78,10 +78,10 @@
       "url": "https://bettery.ru/esports/category/lol/114724/69110403",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:58:18.499Z",
+      "lastCheckedAt": "2026-10-22T01:22:31.396Z",
       "lastSuccessAt": "2026-10-20T01:40:00Z",
       "publishedAt": null,
-      "note": "公開雙邊獨贏價格人工快照；與另一 BETTERY 事件同屬一個莊家。 本次手動讀取：parse_error。未確認指定 Worlds 對戰及 Исход 勝負市場邊界；可能只有 JavaScript 頁面殼。 保留最後成功觀測的舊快照。",
+      "note": "本輪僅可見昨日抓取的網頁快取；直接HTTP只有頁面殼。保留2026-10-20成功觀測的原價格，不把本次查核日期當成新價。",
       "provenanceNote": "公開雙邊獨贏價格人工快照；與另一 BETTERY 事件同屬一個莊家。"
     },
     {
@@ -89,14 +89,14 @@
       "operator": "Riot Games",
       "operatorGroup": "riot",
       "region": "Global",
-      "label": "LoL Esports 官方賽程與賽制",
-      "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+      "label": "LoL Esports 官方逐場首輪賽程",
+      "url": "https://lolesports.com/en-US/",
       "kind": "official_article",
       "status": "snapshot",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:25:43.135Z",
+      "lastSuccessAt": "2026-10-22T01:25:43.135Z",
       "publishedAt": null,
-      "note": "官方 Worlds 2026 primer；瑞士制 10 月 23–31 日，首日台灣時間為 10 月 24 日。僅已核實之前五場填寫 startsAt。"
+      "note": "本輪公開官方HTML的time dateTime帶Z，逐一核對鄰接隊伍及Worlds Swiss BO1。已修正首輪順序，台灣時間10月24日01:00至08:00；預定時間可能隨賽事進度調整。"
     },
     {
       "id": "taiwan-sportslottery",
@@ -107,24 +107,25 @@
       "url": "https://www.sportslottery.com.tw/sportsbook/daily-coupons",
       "kind": "sportsbook",
       "status": "blocked",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:24:41Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "網頁工具回傳 HTTP 403；無已核驗 Worlds 2026 市場，不建立市場。"
+      "note": "本輪HTTP 403，未取得可核驗盤價。"
     },
     {
       "id": "sportsbet-au",
       "operator": "Sportsbet",
-      "operatorGroup": "sportsbet",
+      "operatorGroup": "flutter",
       "region": "AU",
-      "label": "Sportsbet 澳洲：未見本屆市場",
+      "label": "Sportsbet 澳洲：8場公開勝負盤",
       "url": "https://www.sportsbet.com.au/betting/e-sports",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
-      "lastSuccessAt": null,
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
+      "lastSuccessAt": "2026-10-22T01:24:41Z",
       "publishedAt": null,
-      "note": "公開可讀內容未見本屆 Worlds 市場；未取得可比盤價。"
+      "note": "10月22日01:24:41 UTC透過官方公開頁成功讀取8場完整勝負盤，抓取日期為今天。01:25:22 UTC另一次重讀逾時，保留本日成功快照；精準盤價更新時間未知。頁面AEDT時間僅輔助，賽程另依Riot官方核實。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
+      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
     },
     {
       "id": "ladbrokes-au",
@@ -135,10 +136,10 @@
       "url": "https://www.ladbrokes.com.au/sports/esports",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"
+      "note": "Google Tag Manager shell only; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
     },
     {
       "id": "neds-au",
@@ -149,10 +150,10 @@
       "url": "https://www.neds.com.au/sports/esports",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"
+      "note": "Google Tag Manager shell only; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
     },
     {
       "id": "pinnacle",
@@ -163,38 +164,40 @@
       "url": "https://www.pinnacle.com/en/esports/matchups/",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "僅取得 JavaScript 頁面外殼，沒有可驗證的 Worlds 價格。"
+      "note": "Only Google Tag Manager shell; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
     },
     {
       "id": "paddypower",
       "operator": "Paddy Power",
-      "operatorGroup": "paddypower",
+      "operatorGroup": "flutter",
       "region": "GB/IE",
-      "label": "Paddy Power：地區存取受限",
+      "label": "Paddy Power 英國／愛爾蘭：5場公開勝負盤",
       "url": "https://www.paddypower.com/esports",
       "kind": "sportsbook",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
-      "lastSuccessAt": null,
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
+      "lastSuccessAt": "2026-10-22T01:25:00Z",
       "publishedAt": null,
-      "note": "地區存取限制，未取得可比盤價。"
+      "note": "本輪官方5個事件頁可讀Match Odds完整雙邊盤，工具抓取日期為今天；其餘3場未取得。不代表持續接通或可成交現價，盤價實際更新時間未知。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
+      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
     },
     {
       "id": "betfair",
       "operator": "Betfair",
-      "operatorGroup": "betfair",
+      "operatorGroup": "flutter",
       "region": "GB/IE",
       "label": "Betfair：未見本屆市場",
       "url": "https://www.betfair.com/betting/esports/s-27454571",
       "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "status": "blocked",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "可讀內容未見本屆 Worlds 市場，未取得可比盤價。"
+      "note": "HTTP 451 Unavailable For Legal Reasons; no new prices. 本輪沒有新盤價，未填補缺值。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
+      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
     },
     {
       "id": "unibet",
@@ -205,10 +208,85 @@
       "url": "https://www.unibet.com/betting/sports/filter/esports/league_of_legends/all/matches",
       "kind": "sportsbook",
       "status": "unavailable",
-      "lastCheckedAt": "2026-10-20T01:40:00Z",
+      "lastCheckedAt": "2026-10-22T01:25:22Z",
       "lastSuccessAt": null,
       "publishedAt": null,
-      "note": "網頁工具無法讀取可核驗的市場內容。"
+      "note": "URL inaccessible via web tool; no new prices. 本輪沒有新盤價，未填補缺值。"
+    },
+    {
+      "id": "bettery-al-kc",
+      "operator": "BETTERY",
+      "operatorGroup": "bettery",
+      "region": "RU",
+      "kind": "sportsbook",
+      "publishedAt": null,
+      "label": "BETTERY AL–KC 公開盤快照",
+      "url": "https://bettery.ru/esports/category/lol/114724/69110404",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:22:29.850Z",
+      "lastSuccessAt": "2026-10-22T01:21:49Z",
+      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
+      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
+    },
+    {
+      "id": "bettery-hle-tes",
+      "operator": "BETTERY",
+      "operatorGroup": "bettery",
+      "region": "RU",
+      "kind": "sportsbook",
+      "publishedAt": null,
+      "label": "BETTERY HLE–TES 公開盤快照",
+      "url": "https://bettery.ru/esports/category/lol/114724/69110410",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:22:29.853Z",
+      "lastSuccessAt": "2026-10-22T01:21:49Z",
+      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
+      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
+    },
+    {
+      "id": "bettery-los-t1",
+      "operator": "BETTERY",
+      "operatorGroup": "bettery",
+      "region": "RU",
+      "kind": "sportsbook",
+      "publishedAt": null,
+      "label": "BETTERY LOS–T1 公開盤快照",
+      "url": "https://bettery.ru/esports/category/lol/114724/69110411",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:22:29.120Z",
+      "lastSuccessAt": "2026-10-22T01:21:55Z",
+      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
+      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
+    },
+    {
+      "id": "bettery-tsw-lyon",
+      "operator": "BETTERY",
+      "operatorGroup": "bettery",
+      "region": "RU",
+      "kind": "sportsbook",
+      "publishedAt": null,
+      "label": "BETTERY TSW–LYON 公開盤快照",
+      "url": "https://bettery.ru/esports/category/lol/114724/69110412",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:22:29.119Z",
+      "lastSuccessAt": "2026-10-22T01:21:55Z",
+      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
+      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
+    },
+    {
+      "id": "bettery-blg-mkoi",
+      "operator": "BETTERY",
+      "operatorGroup": "bettery",
+      "region": "RU",
+      "kind": "sportsbook",
+      "publishedAt": null,
+      "label": "BETTERY BLG–MKOI 公開盤快照",
+      "url": "https://bettery.ru/esports/category/lol/114724/69110414",
+      "status": "snapshot",
+      "lastCheckedAt": "2026-10-22T01:22:29.116Z",
+      "lastSuccessAt": "2026-10-22T01:21:55Z",
+      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
+      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
     }
   ],
   "events": [
@@ -233,21 +311,41 @@
       "status": "scheduled"
     },
     {
-      "id": "tl-cfo",
-      "name": "TL vs CFO",
+      "id": "hle-tes",
+      "name": "HLE vs TES",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
       "startsAt": "2026-10-23T18:00:00Z",
       "teams": [
         {
-          "id": "TL",
-          "name": "TL",
-          "region": "LCS"
+          "id": "HLE",
+          "name": "HLE",
+          "region": "LCK"
         },
         {
-          "id": "CFO",
-          "name": "CFO",
-          "region": "LCP"
+          "id": "TES",
+          "name": "TES",
+          "region": "LPL"
+        }
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "blg-mkoi",
+      "name": "BLG vs MKOI",
+      "stage": "瑞士制第 1 輪",
+      "format": "BO1",
+      "startsAt": "2026-10-23T19:00:00Z",
+      "teams": [
+        {
+          "id": "BLG",
+          "name": "BLG",
+          "region": "LPL"
+        },
+        {
+          "id": "MKOI",
+          "name": "MKOI",
+          "region": "LEC"
         }
       ],
       "status": "scheduled"
@@ -257,7 +355,7 @@
       "name": "AL vs KC",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
-      "startsAt": "2026-10-23T19:00:00Z",
+      "startsAt": "2026-10-23T20:00:00Z",
       "teams": [
         {
           "id": "AL",
@@ -277,7 +375,7 @@
       "name": "G2 vs DK",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
-      "startsAt": "2026-10-23T20:00:00Z",
+      "startsAt": "2026-10-23T21:00:00Z",
       "teams": [
         {
           "id": "G2",
@@ -293,21 +391,21 @@
       "status": "scheduled"
     },
     {
-      "id": "hle-tes",
-      "name": "HLE vs TES",
+      "id": "tl-cfo",
+      "name": "TL vs CFO",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
-      "startsAt": "2026-10-23T21:00:00Z",
+      "startsAt": "2026-10-23T22:00:00Z",
       "teams": [
         {
-          "id": "HLE",
-          "name": "HLE",
-          "region": "LCK"
+          "id": "TL",
+          "name": "TL",
+          "region": "LCS"
         },
         {
-          "id": "TES",
-          "name": "TES",
-          "region": "LPL"
+          "id": "CFO",
+          "name": "CFO",
+          "region": "LCP"
         }
       ],
       "status": "scheduled"
@@ -317,7 +415,7 @@
       "name": "LOS vs T1",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
-      "startsAt": null,
+      "startsAt": "2026-10-23T23:00:00Z",
       "teams": [
         {
           "id": "LOS",
@@ -337,7 +435,7 @@
       "name": "TSW vs LYON",
       "stage": "瑞士制第 1 輪",
       "format": "BO1",
-      "startsAt": null,
+      "startsAt": "2026-10-24T00:00:00Z",
       "teams": [
         {
           "id": "TSW",
@@ -351,269 +449,9 @@
         }
       ],
       "status": "scheduled"
-    },
-    {
-      "id": "blg-mkoi",
-      "name": "BLG vs MKOI",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": null,
-      "teams": [
-        {
-          "id": "BLG",
-          "name": "BLG",
-          "region": "LPL"
-        },
-        {
-          "id": "MKOI",
-          "name": "MKOI",
-          "region": "LEC"
-        }
-      ],
-      "status": "scheduled"
     }
   ],
   "markets": [
-    {
-      "id": "stake-gen-ig-match-winner",
-      "eventId": "gen-ig",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "GEN",
-          "oddsDecimal": 1.25,
-          "rawOdds": "1.25"
-        },
-        {
-          "id": "IG",
-          "label": "IG",
-          "oddsDecimal": 4,
-          "rawOdds": "4.00"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-tl-cfo-match-winner",
-      "eventId": "tl-cfo",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TL",
-          "label": "TL",
-          "oddsDecimal": 1.35,
-          "rawOdds": "1.35"
-        },
-        {
-          "id": "CFO",
-          "label": "CFO",
-          "oddsDecimal": 3.2,
-          "rawOdds": "3.20"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-al-kc-match-winner",
-      "eventId": "al-kc",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "AL",
-          "label": "AL",
-          "oddsDecimal": 1.42,
-          "rawOdds": "1.42"
-        },
-        {
-          "id": "KC",
-          "label": "KC",
-          "oddsDecimal": 2.9,
-          "rawOdds": "2.90"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-g2-dk-match-winner",
-      "eventId": "g2-dk",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "G2",
-          "label": "G2",
-          "oddsDecimal": 2.25,
-          "rawOdds": "2.25"
-        },
-        {
-          "id": "DK",
-          "label": "DK",
-          "oddsDecimal": 1.65,
-          "rawOdds": "1.65"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-hle-tes-match-winner",
-      "eventId": "hle-tes",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "HLE",
-          "label": "HLE",
-          "oddsDecimal": 1.25,
-          "rawOdds": "1.25"
-        },
-        {
-          "id": "TES",
-          "label": "TES",
-          "oddsDecimal": 4,
-          "rawOdds": "4.00"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-los-t1-match-winner",
-      "eventId": "los-t1",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "LOS",
-          "label": "LOS",
-          "oddsDecimal": 6,
-          "rawOdds": "6.00"
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "oddsDecimal": 1.13,
-          "rawOdds": "1.13"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-tsw-lyon-match-winner",
-      "eventId": "tsw-lyon",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TSW",
-          "label": "TSW",
-          "oddsDecimal": 2.35,
-          "rawOdds": "2.35"
-        },
-        {
-          "id": "LYON",
-          "label": "LYON",
-          "oddsDecimal": 1.6,
-          "rawOdds": "1.60"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-blg-mkoi-match-winner",
-      "eventId": "blg-mkoi",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "BLG",
-          "label": "BLG",
-          "oddsDecimal": 1.17,
-          "rawOdds": "1.17"
-        },
-        {
-          "id": "MKOI",
-          "label": "MKOI",
-          "oddsDecimal": 5,
-          "rawOdds": "5.00"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
     {
       "id": "bettery-gen-ig-gen-ig-match-winner",
       "eventId": "gen-ig",
@@ -753,60 +591,6 @@
       }
     },
     {
-      "id": "b365-uk-region-winner",
-      "eventId": null,
-      "type": "region_winner",
-      "period": "tournament",
-      "line": null,
-      "sourceId": "b365-uk",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "LCK",
-          "label": "LCK",
-          "oddsDecimal": 1.3636363636363638,
-          "rawOdds": "4/11"
-        },
-        {
-          "id": "LPL",
-          "label": "LPL",
-          "oddsDecimal": 3.75,
-          "rawOdds": "11/4"
-        },
-        {
-          "id": "LEC",
-          "label": "LEC",
-          "oddsDecimal": 13,
-          "rawOdds": "12/1"
-        },
-        {
-          "id": "LCS",
-          "label": "LCS",
-          "oddsDecimal": 51,
-          "rawOdds": "50/1"
-        },
-        {
-          "id": "LCP",
-          "label": "LCP",
-          "oddsDecimal": 67,
-          "rawOdds": "66/1"
-        },
-        {
-          "id": "CBLOL",
-          "label": "CBLOL",
-          "oddsDecimal": 101,
-          "rawOdds": "100/1"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/b365-uk.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
       "id": "b365-us-outright",
       "eventId": null,
       "type": "outright",
@@ -934,6 +718,840 @@
       ],
       "evidence": {
         "path": "data/evidence/b365-us.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-gen-ig-match-winner",
+      "eventId": "gen-ig",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "GEN",
+          "label": "GEN",
+          "rawOdds": "1.20",
+          "oddsDecimal": 1.2
+        },
+        {
+          "id": "IG",
+          "label": "IG",
+          "rawOdds": "4.50",
+          "oddsDecimal": 4.5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-tl-cfo-match-winner",
+      "eventId": "tl-cfo",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "TL",
+          "label": "TL",
+          "rawOdds": "1.35",
+          "oddsDecimal": 1.35
+        },
+        {
+          "id": "CFO",
+          "label": "CFO",
+          "rawOdds": "3.20",
+          "oddsDecimal": 3.2
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-al-kc-match-winner",
+      "eventId": "al-kc",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "AL",
+          "label": "AL",
+          "rawOdds": "1.42",
+          "oddsDecimal": 1.42
+        },
+        {
+          "id": "KC",
+          "label": "KC",
+          "rawOdds": "2.90",
+          "oddsDecimal": 2.9
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-g2-dk-match-winner",
+      "eventId": "g2-dk",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "G2",
+          "label": "G2",
+          "rawOdds": "2.30",
+          "oddsDecimal": 2.3
+        },
+        {
+          "id": "DK",
+          "label": "DK",
+          "rawOdds": "1.62",
+          "oddsDecimal": 1.62
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-hle-tes-match-winner",
+      "eventId": "hle-tes",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "HLE",
+          "label": "HLE",
+          "rawOdds": "1.22",
+          "oddsDecimal": 1.22
+        },
+        {
+          "id": "TES",
+          "label": "TES",
+          "rawOdds": "4.40",
+          "oddsDecimal": 4.4
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-los-t1-match-winner",
+      "eventId": "los-t1",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "LOS",
+          "label": "LOS",
+          "rawOdds": "7.00",
+          "oddsDecimal": 7
+        },
+        {
+          "id": "T1",
+          "label": "T1",
+          "rawOdds": "1.10",
+          "oddsDecimal": 1.1
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-tsw-lyon-match-winner",
+      "eventId": "tsw-lyon",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "TSW",
+          "label": "TSW",
+          "rawOdds": "2.30",
+          "oddsDecimal": 2.3
+        },
+        {
+          "id": "LYON",
+          "label": "LYON",
+          "rawOdds": "1.62",
+          "oddsDecimal": 1.62
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "stake-blg-mkoi-match-winner",
+      "eventId": "blg-mkoi",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "stake",
+      "observedAt": "2026-10-22T01:24:37Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "BLG",
+          "label": "BLG",
+          "rawOdds": "1.17",
+          "oddsDecimal": 1.17
+        },
+        {
+          "id": "MKOI",
+          "label": "MKOI",
+          "rawOdds": "5.00",
+          "oddsDecimal": 5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-stake.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "bettery-al-kc-al-kc-match-winner",
+      "eventId": "al-kc",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "bettery-al-kc",
+      "observedAt": "2026-10-22T01:21:49Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "AL",
+          "label": "Anyone's Legend",
+          "rawOdds": "1.43",
+          "oddsDecimal": 1.43
+        },
+        {
+          "id": "KC",
+          "label": "Karmine Corp",
+          "rawOdds": "2.65",
+          "oddsDecimal": 2.65
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-bettery-al-kc.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "bettery-hle-tes-hle-tes-match-winner",
+      "eventId": "hle-tes",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "bettery-hle-tes",
+      "observedAt": "2026-10-22T01:21:49Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "HLE",
+          "label": "Hanwha Life Esports",
+          "rawOdds": "1.20",
+          "oddsDecimal": 1.2
+        },
+        {
+          "id": "TES",
+          "label": "Top Esports",
+          "rawOdds": "4.00",
+          "oddsDecimal": 4
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-bettery-hle-tes.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "bettery-los-t1-los-t1-match-winner",
+      "eventId": "los-t1",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "bettery-los-t1",
+      "observedAt": "2026-10-22T01:21:55Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "LOS",
+          "label": "LOS",
+          "rawOdds": "6.10",
+          "oddsDecimal": 6.1
+        },
+        {
+          "id": "T1",
+          "label": "T1",
+          "rawOdds": "1.09",
+          "oddsDecimal": 1.09
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-bettery-los-t1.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "bettery-tsw-lyon-tsw-lyon-match-winner",
+      "eventId": "tsw-lyon",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "bettery-tsw-lyon",
+      "observedAt": "2026-10-22T01:21:55Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "TSW",
+          "label": "Secret Whales",
+          "rawOdds": "2.20",
+          "oddsDecimal": 2.2
+        },
+        {
+          "id": "LYON",
+          "label": "LYON",
+          "rawOdds": "1.60",
+          "oddsDecimal": 1.6
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-bettery-tsw-lyon.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "bettery-blg-mkoi-blg-mkoi-match-winner",
+      "eventId": "blg-mkoi",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "bettery-blg-mkoi",
+      "observedAt": "2026-10-22T01:21:55Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "BLG",
+          "label": "Bilibili Gaming",
+          "rawOdds": "1.16",
+          "oddsDecimal": 1.16
+        },
+        {
+          "id": "MKOI",
+          "label": "Movistar KOI",
+          "rawOdds": "4.50",
+          "oddsDecimal": 4.5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-bettery-blg-mkoi.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "b365-uk-region-winner",
+      "eventId": null,
+      "type": "region_winner",
+      "period": "tournament",
+      "line": null,
+      "sourceId": "b365-uk",
+      "observedAt": "2026-10-22T01:24:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "LCK",
+          "label": "LCK",
+          "rawOdds": "3/10",
+          "oddsDecimal": 1.3
+        },
+        {
+          "id": "LPL",
+          "label": "LPL",
+          "rawOdds": "7/2",
+          "oddsDecimal": 4.5
+        },
+        {
+          "id": "LEC",
+          "label": "LEC",
+          "rawOdds": "14/1",
+          "oddsDecimal": 15
+        },
+        {
+          "id": "LCS",
+          "label": "LCS",
+          "rawOdds": "50/1",
+          "oddsDecimal": 51
+        },
+        {
+          "id": "LCP",
+          "label": "LCP",
+          "rawOdds": "66/1",
+          "oddsDecimal": 67
+        },
+        {
+          "id": "CBLOL",
+          "label": "CBLOL",
+          "rawOdds": "100/1",
+          "oddsDecimal": 101
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "paddypower-gen-ig-match-winner",
+      "eventId": "gen-ig",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "paddypower",
+      "observedAt": "2026-10-22T01:24:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "GEN",
+          "label": "Gen.G",
+          "rawOdds": "1/6",
+          "oddsDecimal": 1.1666666666666667
+        },
+        {
+          "id": "IG",
+          "label": "Invictus Gaming",
+          "rawOdds": "7/2",
+          "oddsDecimal": 4.5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "paddypower-hle-tes-match-winner",
+      "eventId": "hle-tes",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "paddypower",
+      "observedAt": "2026-10-22T01:24:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "HLE",
+          "label": "Hanwha Life Esports",
+          "rawOdds": "1/5",
+          "oddsDecimal": 1.2
+        },
+        {
+          "id": "TES",
+          "label": "Top Esports",
+          "rawOdds": "3/1",
+          "oddsDecimal": 4
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "paddypower-blg-mkoi-match-winner",
+      "eventId": "blg-mkoi",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "paddypower",
+      "observedAt": "2026-10-22T01:25:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "BLG",
+          "label": "Bilibili Gaming",
+          "rawOdds": "1/7",
+          "oddsDecimal": 1.1428571428571428
+        },
+        {
+          "id": "MKOI",
+          "label": "KOI",
+          "rawOdds": "4/1",
+          "oddsDecimal": 5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "paddypower-al-kc-match-winner",
+      "eventId": "al-kc",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "paddypower",
+      "observedAt": "2026-10-22T01:25:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "AL",
+          "label": "Anyone's Legend",
+          "rawOdds": "2/5",
+          "oddsDecimal": 1.4
+        },
+        {
+          "id": "KC",
+          "label": "Karmine Corp",
+          "rawOdds": "7/4",
+          "oddsDecimal": 2.75
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "paddypower-g2-dk-match-winner",
+      "eventId": "g2-dk",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "paddypower",
+      "observedAt": "2026-10-22T01:25:00Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "G2",
+          "label": "G2 Esports",
+          "rawOdds": "6/5",
+          "oddsDecimal": 2.2
+        },
+        {
+          "id": "DK",
+          "label": "Dplus KIA",
+          "rawOdds": "8/13",
+          "oddsDecimal": 1.6153846153846154
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-other.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:gen-ig:match_winner",
+      "eventId": "gen-ig",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "GEN",
+          "label": "Gen.G",
+          "rawOdds": "1.17",
+          "oddsDecimal": 1.17
+        },
+        {
+          "id": "IG",
+          "label": "Invictus Gaming",
+          "rawOdds": "4.90",
+          "oddsDecimal": 4.9
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-gen-ig.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:hle-tes:match_winner",
+      "eventId": "hle-tes",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "HLE",
+          "label": "Hanwha Life Esports",
+          "rawOdds": "1.20",
+          "oddsDecimal": 1.2
+        },
+        {
+          "id": "TES",
+          "label": "Top Esports",
+          "rawOdds": "4.40",
+          "oddsDecimal": 4.4
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-hle-tes.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:blg-mkoi:match_winner",
+      "eventId": "blg-mkoi",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "BLG",
+          "label": "Bilibili Gaming",
+          "rawOdds": "1.14",
+          "oddsDecimal": 1.14
+        },
+        {
+          "id": "MKOI",
+          "label": "KOI",
+          "rawOdds": "5.50",
+          "oddsDecimal": 5.5
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-blg-mkoi.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:al-kc:match_winner",
+      "eventId": "al-kc",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "AL",
+          "label": "Anyone's Legend",
+          "rawOdds": "1.44",
+          "oddsDecimal": 1.44
+        },
+        {
+          "id": "KC",
+          "label": "Karmine Corp",
+          "rawOdds": "2.74",
+          "oddsDecimal": 2.74
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-al-kc.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:g2-dk:match_winner",
+      "eventId": "g2-dk",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "G2",
+          "label": "G2 Esports",
+          "rawOdds": "2.32",
+          "oddsDecimal": 2.32
+        },
+        {
+          "id": "DK",
+          "label": "Dplus KIA",
+          "rawOdds": "1.59",
+          "oddsDecimal": 1.59
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-g2-dk.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:tl-cfo:match_winner",
+      "eventId": "tl-cfo",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "TL",
+          "label": "Team Liquid",
+          "rawOdds": "1.34",
+          "oddsDecimal": 1.34
+        },
+        {
+          "id": "CFO",
+          "label": "CTBC Flying Oyster",
+          "rawOdds": "3.18",
+          "oddsDecimal": 3.18
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-tl-cfo.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:los-t1:match_winner",
+      "eventId": "los-t1",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "LOS",
+          "label": "Los Grandes",
+          "rawOdds": "7.50",
+          "oddsDecimal": 7.5
+        },
+        {
+          "id": "T1",
+          "label": "T1",
+          "rawOdds": "1.08",
+          "oddsDecimal": 1.08
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-los-t1.txt",
+        "captureMethod": "web-tool",
+        "asOfKnown": false
+      }
+    },
+    {
+      "id": "sportsbet-au:tsw-lyon:match_winner",
+      "eventId": "tsw-lyon",
+      "type": "match_winner",
+      "period": "match",
+      "line": null,
+      "sourceId": "sportsbet-au",
+      "observedAt": "2026-10-22T01:24:41Z",
+      "sourceUpdatedAt": null,
+      "complete": true,
+      "selections": [
+        {
+          "id": "TSW",
+          "label": "Secret Whales",
+          "rawOdds": "2.32",
+          "oddsDecimal": 2.32
+        },
+        {
+          "id": "LYON",
+          "label": "LYON",
+          "rawOdds": "1.59",
+          "oddsDecimal": 1.59
+        }
+      ],
+      "evidence": {
+        "path": "data/evidence/2026-10-22-sportsbet-tsw-lyon.txt",
         "captureMethod": "web-tool",
         "asOfKnown": false
       }
