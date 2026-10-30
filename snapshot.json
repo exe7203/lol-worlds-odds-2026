@@ -4,398 +4,51 @@
     "id": "worlds-2026",
     "name": "2026 League of Legends World Championship",
     "season": 2026,
-    "officialUrl": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "officialUrl": "https://lolesports.com/en-US/",
     "timeZone": "Asia/Taipei"
   },
-  "generatedAt": "2026-10-22T01:29:14.471Z",
+  "generatedAt": "2026-10-30T08:22:17.092Z",
   "sources": [
     {
       "id": "stake",
       "operator": "Stake",
       "operatorGroup": "stake",
       "region": "International",
-      "label": "Stake 公開 BO1 盤口快照",
       "url": "https://stake.com/sports/upcoming/league-of-legends",
       "kind": "sportsbook",
       "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:24:37Z",
-      "lastSuccessAt": "2026-10-22T01:24:37Z",
+      "lastCheckedAt": "2026-10-30T08:10:07Z",
+      "lastSuccessAt": "2026-10-30T08:08:57Z",
       "publishedAt": null,
-      "note": "本次透過網頁文字工具讀取官方World Championship 2026完整雙邊Match Winner - Twoway。工具顯示Crawled today；觀測時間為讀取後記錄，精準盤價更新時間及可成交性未知。",
-      "provenanceNote": "本次透過網頁文字工具讀取官方World Championship 2026完整雙邊Match Winner - Twoway。工具顯示Crawled today；觀測時間為讀取後記錄，精準盤價更新時間及可成交性未知。"
-    },
-    {
-      "id": "b365-uk",
-      "operator": "bet365",
-      "operatorGroup": "bet365",
-      "region": "GB",
-      "label": "bet365 英國官方文章快照",
-      "url": "https://news.bet365.com/en-gb/article/league-of-legends-world-championship-odds/2026101412003173393",
-      "kind": "official_article",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": "2026-10-22T01:24:00Z",
-      "publishedAt": null,
-      "note": "10月22日重新讀取官方文章。文章仍標Updated 14 Oct 26 12:12（時區未知）。完整6項賽區冠軍盤已更新；隊伍冠軍前10價格未變，仍保留10月20日觀測時間且不是完整市場。盤價實際更新時間未知。",
-      "provenanceNote": "正文原始時間標示：Updated 14 Oct 26 12:12；時區不明，未轉成 ISO。冠軍盤僅前 10 隊，並非完整盤；賽區冠軍盤完整 6 項。文章時間不等於盤價更新時間。"
-    },
-    {
-      "id": "b365-us",
-      "operator": "bet365",
-      "operatorGroup": "bet365",
-      "region": "US",
-      "label": "bet365 美國官方文章舊盤快照",
-      "url": "https://news.bet365.com/en-us/article/lol-worlds-2026-guide-schedule-teams-and-betting-odds/2026101515261441496",
-      "kind": "official_article",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": "2026-10-22T01:24:00Z",
-      "publishedAt": null,
-      "note": "10月22日重讀文章，仍標Updated Oct 16 2026 14:05（時區未知）；19隊冠軍表完全未變且含已淘汰隊伍。保留10月20日舊價格觀測時間，不能當作現行完整冠軍盤。與英國來源同屬bet365。",
-      "provenanceNote": "正文原始時間標示：Updated Oct 16 2026 14:05；時區不明，未轉成 ISO。19 隊冠軍表含入圍賽已淘汰隊伍，屬較舊文章價格，不能當作現行完整冠軍盤。與英國來源屬同一家 bet365。"
-    },
-    {
-      "id": "bettery-gen-ig",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "label": "BETTERY GEN–IG 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110401",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:22:28.881Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
-      "publishedAt": null,
-      "note": "本輪僅可見昨日抓取的網頁快取；直接HTTP只有頁面殼。保留2026-10-20成功觀測的原價格，不把本次查核日期當成新價。",
-      "provenanceNote": "公開雙邊獨贏價格人工快照；來源精準盤價更新時間未知。"
-    },
-    {
-      "id": "bettery-tl-cfo",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "label": "BETTERY TL–CFO 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110403",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:22:31.396Z",
-      "lastSuccessAt": "2026-10-20T01:40:00Z",
-      "publishedAt": null,
-      "note": "本輪僅可見昨日抓取的網頁快取；直接HTTP只有頁面殼。保留2026-10-20成功觀測的原價格，不把本次查核日期當成新價。",
-      "provenanceNote": "公開雙邊獨贏價格人工快照；與另一 BETTERY 事件同屬一個莊家。"
-    },
-    {
-      "id": "riot-worlds-2026",
-      "operator": "Riot Games",
-      "operatorGroup": "riot",
-      "region": "Global",
-      "label": "LoL Esports 官方逐場首輪賽程",
-      "url": "https://lolesports.com/en-US/",
-      "kind": "official_article",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:25:43.135Z",
-      "lastSuccessAt": "2026-10-22T01:25:43.135Z",
-      "publishedAt": null,
-      "note": "本輪公開官方HTML的time dateTime帶Z，逐一核對鄰接隊伍及Worlds Swiss BO1。已修正首輪順序，台灣時間10月24日01:00至08:00；預定時間可能隨賽事進度調整。"
-    },
-    {
-      "id": "taiwan-sportslottery",
-      "operator": "台灣運彩",
-      "operatorGroup": "taiwan-sportslottery",
-      "region": "TW",
-      "label": "台灣運彩：未取得可比盤價",
-      "url": "https://www.sportslottery.com.tw/sportsbook/daily-coupons",
-      "kind": "sportsbook",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-22T01:24:41Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "本輪HTTP 403，未取得可核驗盤價。"
+      "note": "本輪公開列表可讀兩場World Championship 2026 Match Winner - Twoway；直接event頁逾時，仍未取得源端盤價更新時間或可成交性。只計一個Stake來源。",
+      "label": "Stake 公開系列賽盤快照"
     },
     {
       "id": "sportsbet-au",
       "operator": "Sportsbet",
       "operatorGroup": "flutter",
       "region": "AU",
-      "label": "Sportsbet 澳洲：8場公開勝負盤",
       "url": "https://www.sportsbet.com.au/betting/e-sports",
       "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": "2026-10-22T01:24:41Z",
-      "publishedAt": null,
-      "note": "10月22日01:24:41 UTC透過官方公開頁成功讀取8場完整勝負盤，抓取日期為今天。01:25:22 UTC另一次重讀逾時，保留本日成功快照；精準盤價更新時間未知。頁面AEDT時間僅輔助，賽程另依Riot官方核實。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
-      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
-    },
-    {
-      "id": "ladbrokes-au",
-      "operator": "Ladbrokes",
-      "operatorGroup": "entain",
-      "region": "AU",
-      "label": "Ladbrokes 澳洲：僅取得頁面外殼",
-      "url": "https://www.ladbrokes.com.au/sports/esports",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "Google Tag Manager shell only; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
-    },
-    {
-      "id": "neds-au",
-      "operator": "Neds",
-      "operatorGroup": "entain",
-      "region": "AU",
-      "label": "Neds 澳洲：僅取得頁面外殼",
-      "url": "https://www.neds.com.au/sports/esports",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "Google Tag Manager shell only; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
-    },
-    {
-      "id": "pinnacle",
-      "operator": "Pinnacle",
-      "operatorGroup": "pinnacle",
-      "region": "International",
-      "label": "Pinnacle：僅取得頁面外殼",
-      "url": "https://www.pinnacle.com/en/esports/matchups/",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "Only Google Tag Manager shell; no verifiable odds. 本輪沒有新盤價，未填補缺值。"
-    },
-    {
-      "id": "paddypower",
-      "operator": "Paddy Power",
-      "operatorGroup": "flutter",
-      "region": "GB/IE",
-      "label": "Paddy Power 英國／愛爾蘭：5場公開勝負盤",
-      "url": "https://www.paddypower.com/esports",
-      "kind": "sportsbook",
       "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": "2026-10-22T01:25:00Z",
+      "lastCheckedAt": "2026-10-30T08:10:07Z",
+      "lastSuccessAt": "2026-10-30T08:08:57Z",
       "publishedAt": null,
-      "note": "本輪官方5個事件頁可讀Match Odds完整雙邊盤，工具抓取日期為今天；其餘3場未取得。不代表持續接通或可成交現價，盤價實際更新時間未知。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
-      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
-    },
-    {
-      "id": "betfair",
-      "operator": "Betfair",
-      "operatorGroup": "flutter",
-      "region": "GB/IE",
-      "label": "Betfair：未見本屆市場",
-      "url": "https://www.betfair.com/betting/esports/s-27454571",
-      "kind": "sportsbook",
-      "status": "blocked",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "HTTP 451 Unavailable For Legal Reasons; no new prices. 本輪沒有新盤價，未填補缺值。 集團關係：Sportsbet、Paddy Power與Betfair同屬Flutter；比較統計保守合併為一個業者集團，品牌原始價格仍各自列出。",
-      "groupEvidenceUrl": "https://careers.flutterinternational.com/our-brands/"
-    },
-    {
-      "id": "unibet",
-      "operator": "Unibet",
-      "operatorGroup": "unibet",
-      "region": "International",
-      "label": "Unibet：工具不可讀",
-      "url": "https://www.unibet.com/betting/sports/filter/esports/league_of_legends/all/matches",
-      "kind": "sportsbook",
-      "status": "unavailable",
-      "lastCheckedAt": "2026-10-22T01:25:22Z",
-      "lastSuccessAt": null,
-      "publishedAt": null,
-      "note": "URL inaccessible via web tool; no new prices. 本輪沒有新盤價，未填補缺值。"
-    },
-    {
-      "id": "bettery-al-kc",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "kind": "sportsbook",
-      "publishedAt": null,
-      "label": "BETTERY AL–KC 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110404",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:22:29.850Z",
-      "lastSuccessAt": "2026-10-22T01:21:49Z",
-      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
-      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
-    },
-    {
-      "id": "bettery-hle-tes",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "kind": "sportsbook",
-      "publishedAt": null,
-      "label": "BETTERY HLE–TES 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110410",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:22:29.853Z",
-      "lastSuccessAt": "2026-10-22T01:21:49Z",
-      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
-      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
-    },
-    {
-      "id": "bettery-los-t1",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "kind": "sportsbook",
-      "publishedAt": null,
-      "label": "BETTERY LOS–T1 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110411",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:22:29.120Z",
-      "lastSuccessAt": "2026-10-22T01:21:55Z",
-      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
-      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
-    },
-    {
-      "id": "bettery-tsw-lyon",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "kind": "sportsbook",
-      "publishedAt": null,
-      "label": "BETTERY TSW–LYON 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110412",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:22:29.119Z",
-      "lastSuccessAt": "2026-10-22T01:21:55Z",
-      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
-      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
-    },
-    {
-      "id": "bettery-blg-mkoi",
-      "operator": "BETTERY",
-      "operatorGroup": "bettery",
-      "region": "RU",
-      "kind": "sportsbook",
-      "publishedAt": null,
-      "label": "BETTERY BLG–MKOI 公開盤快照",
-      "url": "https://bettery.ru/esports/category/lol/114724/69110414",
-      "status": "snapshot",
-      "lastCheckedAt": "2026-10-22T01:22:29.116Z",
-      "lastSuccessAt": "2026-10-22T01:21:55Z",
-      "note": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。",
-      "provenanceNote": "官方頁面文字快照，工具抓取日期為2026-10-22；精準盤價更新時間未知。直接HTTP僅回頁面殼，未用它刷新價格。"
+      "note": "TL–LOS直接事件頁可讀Match Betting及Correct Score(Best of3)；與列表價格不同，直接頁優先。不把同平台不同surface當獨立報價或連續變盤。HLE–G2直接頁本輪逾時。",
+      "label": "Sportsbet 公開系列賽盤快照"
     }
   ],
   "events": [
     {
-      "id": "gen-ig",
-      "name": "GEN vs IG",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T17:00:00Z",
-      "teams": [
-        {
-          "id": "GEN",
-          "name": "GEN",
-          "region": "LCK"
-        },
-        {
-          "id": "IG",
-          "name": "IG",
-          "region": "LPL"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "hle-tes",
-      "name": "HLE vs TES",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T18:00:00Z",
-      "teams": [
-        {
-          "id": "HLE",
-          "name": "HLE",
-          "region": "LCK"
-        },
-        {
-          "id": "TES",
-          "name": "TES",
-          "region": "LPL"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "blg-mkoi",
-      "name": "BLG vs MKOI",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T19:00:00Z",
-      "teams": [
-        {
-          "id": "BLG",
-          "name": "BLG",
-          "region": "LPL"
-        },
-        {
-          "id": "MKOI",
-          "name": "MKOI",
-          "region": "LEC"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "al-kc",
-      "name": "AL vs KC",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T20:00:00Z",
-      "teams": [
-        {
-          "id": "AL",
-          "name": "AL",
-          "region": "LPL"
-        },
-        {
-          "id": "KC",
-          "name": "KC",
-          "region": "LEC"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "g2-dk",
-      "name": "G2 vs DK",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T21:00:00Z",
-      "teams": [
-        {
-          "id": "G2",
-          "name": "G2",
-          "region": "LEC"
-        },
-        {
-          "id": "DK",
-          "name": "DK",
-          "region": "LCK"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "tl-cfo",
-      "name": "TL vs CFO",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T22:00:00Z",
+      "id": "riot-115660540726095077",
+      "officialMatchId": "115660540726095077",
+      "name": "TL vs LOS",
+      "stage": "瑞士輪 · 生存戰",
+      "format": "BO3",
+      "scope": "series",
+      "startsAt": "2026-10-30T20:00:00Z",
+      "status": "scheduled",
+      "officialVerifiedAt": "2026-10-30T08:20:09.891Z",
       "teams": [
         {
           "id": "TL",
@@ -403,455 +56,100 @@
           "region": "LCS"
         },
         {
-          "id": "CFO",
-          "name": "CFO",
-          "region": "LCP"
-        }
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "los-t1",
-      "name": "LOS vs T1",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-23T23:00:00Z",
-      "teams": [
-        {
           "id": "LOS",
           "name": "LOS",
           "region": "CBLOL"
-        },
-        {
-          "id": "T1",
-          "name": "T1",
-          "region": "LCK"
         }
-      ],
-      "status": "scheduled"
+      ]
     },
     {
-      "id": "tsw-lyon",
-      "name": "TSW vs LYON",
-      "stage": "瑞士制第 1 輪",
-      "format": "BO1",
-      "startsAt": "2026-10-24T00:00:00Z",
+      "id": "riot-115660540726095081",
+      "officialMatchId": "115660540726095081",
+      "name": "G2 vs HLE",
+      "stage": "瑞士輪 · 生存戰",
+      "format": "BO3",
+      "scope": "series",
+      "startsAt": "2026-10-30T23:00:00Z",
+      "status": "scheduled",
+      "officialVerifiedAt": "2026-10-30T08:20:09.891Z",
       "teams": [
         {
-          "id": "TSW",
-          "name": "TSW",
-          "region": "LCP"
+          "id": "G2",
+          "name": "G2",
+          "region": "LEC"
         },
         {
-          "id": "LYON",
-          "name": "LYON",
-          "region": "LCS"
+          "id": "HLE",
+          "name": "HLE",
+          "region": "LCK"
         }
-      ],
-      "status": "scheduled"
+      ]
     }
   ],
   "markets": [
     {
-      "id": "bettery-gen-ig-gen-ig-match-winner",
-      "eventId": "gen-ig",
       "type": "match_winner",
       "period": "match",
       "line": null,
-      "sourceId": "bettery-gen-ig",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
+      "scope": "series",
+      "format": "BO3",
       "complete": true,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "GEN",
-          "oddsDecimal": 1.2,
-          "rawOdds": "1.20"
-        },
-        {
-          "id": "IG",
-          "label": "IG",
-          "oddsDecimal": 4,
-          "rawOdds": "4.00"
-        }
-      ],
+      "sourceUpdatedAt": null,
       "evidence": {
-        "path": "data/evidence/bettery-gen-ig.txt",
+        "path": "data/evidence/2026-10-30-odds.txt",
         "captureMethod": "web-tool",
         "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-tl-cfo-tl-cfo-match-winner",
-      "eventId": "tl-cfo",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-tl-cfo",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
+      },
+      "observedAt": "2026-10-30T08:08:57Z",
+      "id": "stake-swiss-20261030-tl-los",
+      "eventId": "riot-115660540726095077",
+      "fixtureKey": "LOS|TL",
+      "sourceId": "stake",
+      "sourceUrl": "https://stake.com/sports/upcoming/league-of-legends",
       "selections": [
         {
           "id": "TL",
           "label": "TL",
-          "oddsDecimal": 1.33,
-          "rawOdds": "1.33"
-        },
-        {
-          "id": "CFO",
-          "label": "CFO",
-          "oddsDecimal": 3,
-          "rawOdds": "3.00"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/bettery-tl-cfo.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "b365-uk-outright",
-      "eventId": null,
-      "type": "outright",
-      "period": "tournament",
-      "line": null,
-      "sourceId": "b365-uk",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": false,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "GEN",
-          "oddsDecimal": 3.25,
-          "rawOdds": "9/4"
-        },
-        {
-          "id": "HLE",
-          "label": "HLE",
-          "oddsDecimal": 4.5,
-          "rawOdds": "7/2"
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "oddsDecimal": 4.5,
-          "rawOdds": "7/2"
-        },
-        {
-          "id": "BLG",
-          "label": "BLG",
-          "oddsDecimal": 5,
-          "rawOdds": "4/1"
-        },
-        {
-          "id": "AL",
-          "label": "AL",
-          "oddsDecimal": 11,
-          "rawOdds": "10/1"
-        },
-        {
-          "id": "DK",
-          "label": "DK",
-          "oddsDecimal": 13,
-          "rawOdds": "12/1"
-        },
-        {
-          "id": "G2",
-          "label": "G2",
-          "oddsDecimal": 15,
-          "rawOdds": "14/1"
-        },
-        {
-          "id": "IG",
-          "label": "IG",
-          "oddsDecimal": 21,
-          "rawOdds": "20/1"
-        },
-        {
-          "id": "TES",
-          "label": "TES",
-          "oddsDecimal": 41,
-          "rawOdds": "40/1"
-        },
-        {
-          "id": "TL",
-          "label": "TL",
-          "oddsDecimal": 41,
-          "rawOdds": "40/1"
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/b365-uk.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "b365-us-outright",
-      "eventId": null,
-      "type": "outright",
-      "period": "tournament",
-      "line": null,
-      "sourceId": "b365-us",
-      "observedAt": "2026-10-20T01:40:00Z",
-      "sourceUpdatedAt": null,
-      "complete": false,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "GEN",
-          "oddsDecimal": 3,
-          "rawOdds": "+200"
-        },
-        {
-          "id": "HLE",
-          "label": "HLE",
-          "oddsDecimal": 4.5,
-          "rawOdds": "+350"
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "oddsDecimal": 4.5,
-          "rawOdds": "+350"
-        },
-        {
-          "id": "BLG",
-          "label": "BLG",
-          "oddsDecimal": 5,
-          "rawOdds": "+400"
-        },
-        {
-          "id": "AL",
-          "label": "AL",
-          "oddsDecimal": 10,
-          "rawOdds": "+900"
-        },
-        {
-          "id": "DK",
-          "label": "DK",
-          "oddsDecimal": 13,
-          "rawOdds": "+1200"
-        },
-        {
-          "id": "G2",
-          "label": "G2",
-          "oddsDecimal": 15,
-          "rawOdds": "+1400"
-        },
-        {
-          "id": "IG",
-          "label": "IG",
-          "oddsDecimal": 19,
-          "rawOdds": "+1800"
-        },
-        {
-          "id": "LYON",
-          "label": "LYON",
-          "oddsDecimal": 34,
-          "rawOdds": "+3300"
-        },
-        {
-          "id": "TES",
-          "label": "TES",
-          "oddsDecimal": 15,
-          "rawOdds": "+1400"
-        },
-        {
-          "id": "TL",
-          "label": "TL",
-          "oddsDecimal": 41,
-          "rawOdds": "+4000"
-        },
-        {
-          "id": "MKOI",
-          "label": "MKOI",
-          "oddsDecimal": 51,
-          "rawOdds": "+5000"
-        },
-        {
-          "id": "TSW",
-          "label": "TSW",
-          "oddsDecimal": 67,
-          "rawOdds": "+6600"
-        },
-        {
-          "id": "CFO",
-          "label": "CFO",
-          "oddsDecimal": 81,
-          "rawOdds": "+8000"
+          "rawOdds": "1.25",
+          "oddsDecimal": 1.25
         },
         {
           "id": "LOS",
           "label": "LOS",
-          "oddsDecimal": 101,
-          "rawOdds": "+10000"
-        },
-        {
-          "id": "KC",
-          "label": "KC",
-          "oddsDecimal": 126,
-          "rawOdds": "+12500"
-        },
-        {
-          "id": "C9",
-          "label": "C9",
-          "oddsDecimal": 151,
-          "rawOdds": "+15000"
-        },
-        {
-          "id": "FUR",
-          "label": "FUR",
-          "oddsDecimal": 176,
-          "rawOdds": "+17500"
-        },
-        {
-          "id": "MVK",
-          "label": "MVK",
-          "oddsDecimal": 351,
-          "rawOdds": "+35000"
+          "rawOdds": "4.00",
+          "oddsDecimal": 4
         }
       ],
-      "evidence": {
-        "path": "data/evidence/b365-us.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
+      "sourceMarketLabel": "Match Winner - Twoway",
+      "sourceDateDisplay": "Fri, Oct 30 8:00 PM",
+      "officialStartsAt": "2026-10-30T20:00:00Z",
+      "scopeEvidence": "Match winner label is distinct from map markets; BO3 identity must be joined to independently verified Riot schedule.",
+      "scopeQuality": "official-format-join",
+      "crawlFreshness": "today",
+      "toolReference": "turn55view2",
+      "qualityIssues": [
+        "Direct event page timed out in this round. Exact source price-update time and executable price unknown."
+      ]
     },
     {
-      "id": "stake-gen-ig-match-winner",
-      "eventId": "gen-ig",
       "type": "match_winner",
       "period": "match",
       "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
+      "scope": "series",
+      "format": "BO3",
       "complete": true,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "GEN",
-          "rawOdds": "1.20",
-          "oddsDecimal": 1.2
-        },
-        {
-          "id": "IG",
-          "label": "IG",
-          "rawOdds": "4.50",
-          "oddsDecimal": 4.5
-        }
-      ],
+      "sourceUpdatedAt": null,
       "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
+        "path": "data/evidence/2026-10-30-odds.txt",
         "captureMethod": "web-tool",
         "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-tl-cfo-match-winner",
-      "eventId": "tl-cfo",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
+      },
+      "observedAt": "2026-10-30T08:08:57Z",
+      "id": "stake-swiss-20261030-hle-g2",
+      "eventId": "riot-115660540726095081",
+      "fixtureKey": "G2|HLE",
       "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TL",
-          "label": "TL",
-          "rawOdds": "1.35",
-          "oddsDecimal": 1.35
-        },
-        {
-          "id": "CFO",
-          "label": "CFO",
-          "rawOdds": "3.20",
-          "oddsDecimal": 3.2
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-al-kc-match-winner",
-      "eventId": "al-kc",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "AL",
-          "label": "AL",
-          "rawOdds": "1.42",
-          "oddsDecimal": 1.42
-        },
-        {
-          "id": "KC",
-          "label": "KC",
-          "rawOdds": "2.90",
-          "oddsDecimal": 2.9
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-g2-dk-match-winner",
-      "eventId": "g2-dk",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "G2",
-          "label": "G2",
-          "rawOdds": "2.30",
-          "oddsDecimal": 2.3
-        },
-        {
-          "id": "DK",
-          "label": "DK",
-          "rawOdds": "1.62",
-          "oddsDecimal": 1.62
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-hle-tes-match-winner",
-      "eventId": "hle-tes",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
+      "sourceUrl": "https://stake.com/sports/upcoming/league-of-legends",
       "selections": [
         {
           "id": "HLE",
@@ -860,701 +158,2808 @@
           "oddsDecimal": 1.22
         },
         {
-          "id": "TES",
-          "label": "TES",
+          "id": "G2",
+          "label": "G2",
           "rawOdds": "4.40",
           "oddsDecimal": 4.4
         }
       ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
+      "sourceMarketLabel": "Match Winner - Twoway",
+      "sourceDateDisplay": "Fri, Oct 30 11:00 PM",
+      "officialStartsAt": "2026-10-30T23:00:00Z",
+      "scopeEvidence": "Match winner label distinct from map markets; BO3 identity independently verified by Riot.",
+      "scopeQuality": "official-format-join",
+      "crawlFreshness": "today",
+      "toolReference": "turn55view2",
+      "qualityIssues": [
+        "Direct event page timed out in this round. Exact source price-update time and executable price unknown."
+      ]
     },
     {
-      "id": "stake-los-t1-match-winner",
-      "eventId": "los-t1",
       "type": "match_winner",
       "period": "match",
       "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
+      "scope": "series",
+      "format": "BO3",
       "complete": true,
-      "selections": [
-        {
-          "id": "LOS",
-          "label": "LOS",
-          "rawOdds": "7.00",
-          "oddsDecimal": 7
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "rawOdds": "1.10",
-          "oddsDecimal": 1.1
-        }
-      ],
+      "sourceUpdatedAt": null,
       "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
+        "path": "data/evidence/2026-10-30-odds.txt",
         "captureMethod": "web-tool",
         "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-tsw-lyon-match-winner",
-      "eventId": "tsw-lyon",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TSW",
-          "label": "TSW",
-          "rawOdds": "2.30",
-          "oddsDecimal": 2.3
-        },
-        {
-          "id": "LYON",
-          "label": "LYON",
-          "rawOdds": "1.62",
-          "oddsDecimal": 1.62
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "stake-blg-mkoi-match-winner",
-      "eventId": "blg-mkoi",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "stake",
-      "observedAt": "2026-10-22T01:24:37Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "BLG",
-          "label": "BLG",
-          "rawOdds": "1.17",
-          "oddsDecimal": 1.17
-        },
-        {
-          "id": "MKOI",
-          "label": "MKOI",
-          "rawOdds": "5.00",
-          "oddsDecimal": 5
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-stake.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-al-kc-al-kc-match-winner",
-      "eventId": "al-kc",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-al-kc",
-      "observedAt": "2026-10-22T01:21:49Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "AL",
-          "label": "Anyone's Legend",
-          "rawOdds": "1.43",
-          "oddsDecimal": 1.43
-        },
-        {
-          "id": "KC",
-          "label": "Karmine Corp",
-          "rawOdds": "2.65",
-          "oddsDecimal": 2.65
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-bettery-al-kc.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-hle-tes-hle-tes-match-winner",
-      "eventId": "hle-tes",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-hle-tes",
-      "observedAt": "2026-10-22T01:21:49Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "HLE",
-          "label": "Hanwha Life Esports",
-          "rawOdds": "1.20",
-          "oddsDecimal": 1.2
-        },
-        {
-          "id": "TES",
-          "label": "Top Esports",
-          "rawOdds": "4.00",
-          "oddsDecimal": 4
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-bettery-hle-tes.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-los-t1-los-t1-match-winner",
-      "eventId": "los-t1",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-los-t1",
-      "observedAt": "2026-10-22T01:21:55Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "LOS",
-          "label": "LOS",
-          "rawOdds": "6.10",
-          "oddsDecimal": 6.1
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "rawOdds": "1.09",
-          "oddsDecimal": 1.09
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-bettery-los-t1.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-tsw-lyon-tsw-lyon-match-winner",
-      "eventId": "tsw-lyon",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-tsw-lyon",
-      "observedAt": "2026-10-22T01:21:55Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TSW",
-          "label": "Secret Whales",
-          "rawOdds": "2.20",
-          "oddsDecimal": 2.2
-        },
-        {
-          "id": "LYON",
-          "label": "LYON",
-          "rawOdds": "1.60",
-          "oddsDecimal": 1.6
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-bettery-tsw-lyon.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "bettery-blg-mkoi-blg-mkoi-match-winner",
-      "eventId": "blg-mkoi",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "bettery-blg-mkoi",
-      "observedAt": "2026-10-22T01:21:55Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "BLG",
-          "label": "Bilibili Gaming",
-          "rawOdds": "1.16",
-          "oddsDecimal": 1.16
-        },
-        {
-          "id": "MKOI",
-          "label": "Movistar KOI",
-          "rawOdds": "4.50",
-          "oddsDecimal": 4.5
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-bettery-blg-mkoi.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "b365-uk-region-winner",
-      "eventId": null,
-      "type": "region_winner",
-      "period": "tournament",
-      "line": null,
-      "sourceId": "b365-uk",
-      "observedAt": "2026-10-22T01:24:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "LCK",
-          "label": "LCK",
-          "rawOdds": "3/10",
-          "oddsDecimal": 1.3
-        },
-        {
-          "id": "LPL",
-          "label": "LPL",
-          "rawOdds": "7/2",
-          "oddsDecimal": 4.5
-        },
-        {
-          "id": "LEC",
-          "label": "LEC",
-          "rawOdds": "14/1",
-          "oddsDecimal": 15
-        },
-        {
-          "id": "LCS",
-          "label": "LCS",
-          "rawOdds": "50/1",
-          "oddsDecimal": 51
-        },
-        {
-          "id": "LCP",
-          "label": "LCP",
-          "rawOdds": "66/1",
-          "oddsDecimal": 67
-        },
-        {
-          "id": "CBLOL",
-          "label": "CBLOL",
-          "rawOdds": "100/1",
-          "oddsDecimal": 101
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "paddypower-gen-ig-match-winner",
-      "eventId": "gen-ig",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "paddypower",
-      "observedAt": "2026-10-22T01:24:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "Gen.G",
-          "rawOdds": "1/6",
-          "oddsDecimal": 1.1666666666666667
-        },
-        {
-          "id": "IG",
-          "label": "Invictus Gaming",
-          "rawOdds": "7/2",
-          "oddsDecimal": 4.5
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "paddypower-hle-tes-match-winner",
-      "eventId": "hle-tes",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "paddypower",
-      "observedAt": "2026-10-22T01:24:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "HLE",
-          "label": "Hanwha Life Esports",
-          "rawOdds": "1/5",
-          "oddsDecimal": 1.2
-        },
-        {
-          "id": "TES",
-          "label": "Top Esports",
-          "rawOdds": "3/1",
-          "oddsDecimal": 4
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "paddypower-blg-mkoi-match-winner",
-      "eventId": "blg-mkoi",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "paddypower",
-      "observedAt": "2026-10-22T01:25:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "BLG",
-          "label": "Bilibili Gaming",
-          "rawOdds": "1/7",
-          "oddsDecimal": 1.1428571428571428
-        },
-        {
-          "id": "MKOI",
-          "label": "KOI",
-          "rawOdds": "4/1",
-          "oddsDecimal": 5
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "paddypower-al-kc-match-winner",
-      "eventId": "al-kc",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "paddypower",
-      "observedAt": "2026-10-22T01:25:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "AL",
-          "label": "Anyone's Legend",
-          "rawOdds": "2/5",
-          "oddsDecimal": 1.4
-        },
-        {
-          "id": "KC",
-          "label": "Karmine Corp",
-          "rawOdds": "7/4",
-          "oddsDecimal": 2.75
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "paddypower-g2-dk-match-winner",
-      "eventId": "g2-dk",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "paddypower",
-      "observedAt": "2026-10-22T01:25:00Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "G2",
-          "label": "G2 Esports",
-          "rawOdds": "6/5",
-          "oddsDecimal": 2.2
-        },
-        {
-          "id": "DK",
-          "label": "Dplus KIA",
-          "rawOdds": "8/13",
-          "oddsDecimal": 1.6153846153846154
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-other.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:gen-ig:match_winner",
-      "eventId": "gen-ig",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
+      },
+      "observedAt": "2026-10-30T08:08:57Z",
+      "id": "sportsbet-swiss-20261030-tl-los",
+      "eventId": "riot-115660540726095077",
+      "fixtureKey": "LOS|TL",
       "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "GEN",
-          "label": "Gen.G",
-          "rawOdds": "1.17",
-          "oddsDecimal": 1.17
-        },
-        {
-          "id": "IG",
-          "label": "Invictus Gaming",
-          "rawOdds": "4.90",
-          "oddsDecimal": 4.9
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-gen-ig.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:hle-tes:match_winner",
-      "eventId": "hle-tes",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "HLE",
-          "label": "Hanwha Life Esports",
-          "rawOdds": "1.20",
-          "oddsDecimal": 1.2
-        },
-        {
-          "id": "TES",
-          "label": "Top Esports",
-          "rawOdds": "4.40",
-          "oddsDecimal": 4.4
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-hle-tes.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:blg-mkoi:match_winner",
-      "eventId": "blg-mkoi",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "BLG",
-          "label": "Bilibili Gaming",
-          "rawOdds": "1.14",
-          "oddsDecimal": 1.14
-        },
-        {
-          "id": "MKOI",
-          "label": "KOI",
-          "rawOdds": "5.50",
-          "oddsDecimal": 5.5
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-blg-mkoi.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:al-kc:match_winner",
-      "eventId": "al-kc",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "AL",
-          "label": "Anyone's Legend",
-          "rawOdds": "1.44",
-          "oddsDecimal": 1.44
-        },
-        {
-          "id": "KC",
-          "label": "Karmine Corp",
-          "rawOdds": "2.74",
-          "oddsDecimal": 2.74
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-al-kc.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:g2-dk:match_winner",
-      "eventId": "g2-dk",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "G2",
-          "label": "G2 Esports",
-          "rawOdds": "2.32",
-          "oddsDecimal": 2.32
-        },
-        {
-          "id": "DK",
-          "label": "Dplus KIA",
-          "rawOdds": "1.59",
-          "oddsDecimal": 1.59
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-g2-dk.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:tl-cfo:match_winner",
-      "eventId": "tl-cfo",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
+      "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
       "selections": [
         {
           "id": "TL",
-          "label": "Team Liquid",
-          "rawOdds": "1.34",
-          "oddsDecimal": 1.34
+          "label": "TL",
+          "rawOdds": "1.20",
+          "oddsDecimal": 1.2
         },
-        {
-          "id": "CFO",
-          "label": "CTBC Flying Oyster",
-          "rawOdds": "3.18",
-          "oddsDecimal": 3.18
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-tl-cfo.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:los-t1:match_winner",
-      "eventId": "los-t1",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
         {
           "id": "LOS",
-          "label": "Los Grandes",
-          "rawOdds": "7.50",
-          "oddsDecimal": 7.5
-        },
-        {
-          "id": "T1",
-          "label": "T1",
-          "rawOdds": "1.08",
-          "oddsDecimal": 1.08
+          "label": "LOS",
+          "rawOdds": "4.40",
+          "oddsDecimal": 4.4
         }
       ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-los-t1.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
-    },
-    {
-      "id": "sportsbet-au:tsw-lyon:match_winner",
-      "eventId": "tsw-lyon",
-      "type": "match_winner",
-      "period": "match",
-      "line": null,
-      "sourceId": "sportsbet-au",
-      "observedAt": "2026-10-22T01:24:41Z",
-      "sourceUpdatedAt": null,
-      "complete": true,
-      "selections": [
-        {
-          "id": "TSW",
-          "label": "Secret Whales",
-          "rawOdds": "2.32",
-          "oddsDecimal": 2.32
-        },
-        {
-          "id": "LYON",
-          "label": "LYON",
-          "rawOdds": "1.59",
-          "oddsDecimal": 1.59
-        }
-      ],
-      "evidence": {
-        "path": "data/evidence/2026-10-22-sportsbet-tsw-lyon.txt",
-        "captureMethod": "web-tool",
-        "asOfKnown": false
-      }
+      "sourceMarketLabel": "Match Betting",
+      "officialStartsAt": "2026-10-30T20:00:00Z",
+      "scopeEvidence": "Same official event page explicitly lists Correct Score (Best of 3) four outcomes and separate Map 1 Winner.",
+      "scopeQuality": "direct-series-confirmed",
+      "crawlFreshness": "today",
+      "toolReference": "turn55view0",
+      "qualityIssues": [
+        "Official list shows 1.17/4.85 while direct event shows 1.20/4.40; direct event used as representative. No source timestamp to establish chronological order."
+      ]
     }
-  ]
+  ],
+  "research": {
+    "schemaVersion": 1,
+    "stageLabel": "瑞士輪收尾 · 八強對戰待定",
+    "verifiedAt": "2026-10-30T08:20:09.891Z",
+    "resultsObservedAt": "2026-10-30T08:20:09.891Z",
+    "officialUrl": "https://lolesports.com/en-US/",
+    "officialTournamentId": "115660540725177488",
+    "officialCoverage": {
+      "expectedSeries": 33,
+      "acceptedSeries": 33,
+      "complete": true
+    },
+    "qualified": [
+      "DK",
+      "GEN",
+      "IG",
+      "T1",
+      "TES"
+    ],
+    "eliminated": [
+      "CFO",
+      "AL",
+      "TSW"
+    ],
+    "slots": [
+      {
+        "officialMatchId": "115660540726095085",
+        "eventId": "riot-115660540726095085",
+        "tournamentId": "115660540725177488",
+        "stage": "Swiss",
+        "startsAt": "2026-10-31T17:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095089",
+        "eventId": "riot-115660540726095089",
+        "tournamentId": "115660540725177488",
+        "stage": "Swiss",
+        "startsAt": "2026-10-31T20:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095093",
+        "eventId": "riot-115660540726095093",
+        "tournamentId": "115660540725177488",
+        "stage": "Swiss",
+        "startsAt": "2026-10-31T23:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095097",
+        "eventId": "riot-115660540726095097",
+        "tournamentId": "115660540725177488",
+        "stage": "Quarterfinals",
+        "startsAt": "2026-11-03T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095103",
+        "eventId": "riot-115660540726095103",
+        "tournamentId": "115660540725177488",
+        "stage": "Quarterfinals",
+        "startsAt": "2026-11-04T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095109",
+        "eventId": "riot-115660540726095109",
+        "tournamentId": "115660540725177488",
+        "stage": "Quarterfinals",
+        "startsAt": "2026-11-05T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095115",
+        "eventId": "riot-115660540726095115",
+        "tournamentId": "115660540725177488",
+        "stage": "Quarterfinals",
+        "startsAt": "2026-11-06T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095121",
+        "eventId": "riot-115660540726095121",
+        "tournamentId": "115660540725177488",
+        "stage": "Semifinals",
+        "startsAt": "2026-11-07T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095127",
+        "eventId": "riot-115660540726095127",
+        "tournamentId": "115660540725177488",
+        "stage": "Semifinals",
+        "startsAt": "2026-11-08T22:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      },
+      {
+        "officialMatchId": "115660540726095133",
+        "eventId": "riot-115660540726095133",
+        "tournamentId": "115660540725177488",
+        "stage": "Finals",
+        "startsAt": "2026-11-14T19:00:00Z",
+        "format": "BO5",
+        "bestOf": 5,
+        "state": "unstarted",
+        "teams": [
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          },
+          {
+            "id": null,
+            "label": "TBD",
+            "rawCode": "TBD",
+            "score": null,
+            "outcome": null
+          }
+        ],
+        "winnerId": null,
+        "pairingsConfirmed": false,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": true,
+          "scoresAttachedToTeamObjects": true
+        }
+      }
+    ],
+    "results": [
+      {
+        "officialMatchId": "115660540726095005",
+        "eventId": "gen-ig",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T17:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "IG",
+            "label": "Invictus Gaming",
+            "rawCode": "IG",
+            "officialTeamId": "99566404848691211",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "GEN",
+            "label": "Gen.G Esports",
+            "rawCode": "GEN",
+            "officialTeamId": "100205573495116443",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "GEN",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 1
+      },
+      {
+        "officialMatchId": "115660540726095013",
+        "eventId": "hle-tes",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T18:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TES",
+            "label": "TOP ESPORTS",
+            "rawCode": "TES",
+            "officialTeamId": "99566404854685458",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "HLE",
+            "label": "Hanwha Life Esports",
+            "rawCode": "HLE",
+            "officialTeamId": "100205573496804586",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "HLE",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 2
+      },
+      {
+        "officialMatchId": "115660540726095019",
+        "eventId": "blg-mkoi",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T19:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "MKOI",
+            "label": "Movistar KOI",
+            "rawCode": "MKOI",
+            "officialTeamId": "103461966965149786",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "BLG",
+            "label": "BILIBILI GAMING",
+            "rawCode": "BLG",
+            "officialTeamId": "99566404853854212",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "MKOI",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 3
+      },
+      {
+        "officialMatchId": "115660540726095009",
+        "eventId": "al-kc",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T20:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "KC",
+            "label": "Karmine Corp",
+            "rawCode": "KC",
+            "officialTeamId": "111692118851466302",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "AL",
+            "label": "Anyone's Legend",
+            "rawCode": "AL",
+            "officialTeamId": "99566404856367466",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "KC",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 4
+      },
+      {
+        "officialMatchId": "115660540726095011",
+        "eventId": "g2-dk",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T21:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "DK",
+            "label": "Dplus KIA",
+            "rawCode": "DK",
+            "officialTeamId": "100725845018863243",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "G2",
+            "label": "G2 Esports",
+            "rawCode": "G2",
+            "officialTeamId": "98767991926151025",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "DK",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 5
+      },
+      {
+        "officialMatchId": "115660540726095007",
+        "eventId": "tl-cfo",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T22:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TL",
+            "label": "Team Liquid Alienware",
+            "rawCode": "TLAW",
+            "officialTeamId": "98926509885559666",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "CFO",
+            "label": "CTBC Flying Oyster",
+            "rawCode": "CFO",
+            "officialTeamId": "107700199633958891",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "CFO",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 6
+      },
+      {
+        "officialMatchId": "115660540726095015",
+        "eventId": "los-t1",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-23T23:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "LOS",
+            "label": "LOS",
+            "rawCode": "LOS",
+            "officialTeamId": "109480204628225868",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "T1",
+            "label": "T1",
+            "rawCode": "T1",
+            "officialTeamId": "98767991853197861",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "T1",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 7
+      },
+      {
+        "officialMatchId": "115660540726095017",
+        "eventId": "tsw-lyon",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T00:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "LYON",
+            "label": "LYON",
+            "rawCode": "LYON",
+            "officialTeamId": "99566405941863385",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "TSW",
+            "label": "Team Secret Whales",
+            "rawCode": "TSW",
+            "officialTeamId": "113661839307879869",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "LYON",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": 1,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 8
+      },
+      {
+        "officialMatchId": "115660540726095029",
+        "eventId": "riot-115660540726095029",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T17:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TES",
+            "label": "TOP ESPORTS",
+            "rawCode": "TES",
+            "officialTeamId": "99566404854685458",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "AL",
+            "label": "Anyone's Legend",
+            "rawCode": "AL",
+            "officialTeamId": "99566404856367466",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "TES",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 9
+      },
+      {
+        "officialMatchId": "115660540726095021",
+        "eventId": "riot-115660540726095021",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T18:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "MKOI",
+            "label": "Movistar KOI",
+            "rawCode": "MKOI",
+            "officialTeamId": "103461966965149786",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "CFO",
+            "label": "CTBC Flying Oyster",
+            "rawCode": "CFO",
+            "officialTeamId": "107700199633958891",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "MKOI",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 10
+      },
+      {
+        "officialMatchId": "115660540726095031",
+        "eventId": "riot-115660540726095031",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T19:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "LOS",
+            "label": "LOS",
+            "rawCode": "LOS",
+            "officialTeamId": "109480204628225868",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "G2",
+            "label": "G2 Esports",
+            "rawCode": "G2",
+            "officialTeamId": "98767991926151025",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "G2",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 11
+      },
+      {
+        "officialMatchId": "115660540726095023",
+        "eventId": "riot-115660540726095023",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T20:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "KC",
+            "label": "Karmine Corp",
+            "rawCode": "KC",
+            "officialTeamId": "111692118851466302",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "LYON",
+            "label": "LYON",
+            "rawCode": "LYON",
+            "officialTeamId": "99566405941863385",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "LYON",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 12
+      },
+      {
+        "officialMatchId": "115660540726095033",
+        "eventId": "riot-115660540726095033",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T21:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TSW",
+            "label": "Team Secret Whales",
+            "rawCode": "TSW",
+            "officialTeamId": "113661839307879869",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "IG",
+            "label": "Invictus Gaming",
+            "rawCode": "IG",
+            "officialTeamId": "99566404848691211",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "IG",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 13
+      },
+      {
+        "officialMatchId": "115660540726095025",
+        "eventId": "riot-115660540726095025",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T22:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "HLE",
+            "label": "Hanwha Life Esports",
+            "rawCode": "HLE",
+            "officialTeamId": "100205573496804586",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "GEN",
+            "label": "Gen.G Esports",
+            "rawCode": "GEN",
+            "officialTeamId": "100205573495116443",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "GEN",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 14
+      },
+      {
+        "officialMatchId": "115660540726095027",
+        "eventId": "riot-115660540726095027",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-24T23:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "DK",
+            "label": "Dplus KIA",
+            "rawCode": "DK",
+            "officialTeamId": "100725845018863243",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "T1",
+            "label": "T1",
+            "rawCode": "T1",
+            "officialTeamId": "98767991853197861",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "DK",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 15
+      },
+      {
+        "officialMatchId": "115660540726095035",
+        "eventId": "riot-115660540726095035",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-25T00:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TL",
+            "label": "Team Liquid Alienware",
+            "rawCode": "TLAW",
+            "officialTeamId": "98926509885559666",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "BLG",
+            "label": "BILIBILI GAMING",
+            "rawCode": "BLG",
+            "officialTeamId": "99566404853854212",
+            "score": 1,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "BLG",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 16
+      },
+      {
+        "officialMatchId": "115660540726095045",
+        "eventId": "riot-115660540726095045",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-25T17:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "IG",
+            "label": "Invictus Gaming",
+            "rawCode": "IG",
+            "officialTeamId": "99566404848691211",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "HLE",
+            "label": "Hanwha Life Esports",
+            "rawCode": "HLE",
+            "officialTeamId": "100205573496804586",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "IG",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 17
+      },
+      {
+        "officialMatchId": "115660540726095047",
+        "eventId": "riot-115660540726095047",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-25T18:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TES",
+            "label": "TOP ESPORTS",
+            "rawCode": "TES",
+            "officialTeamId": "99566404854685458",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "G2",
+            "label": "G2 Esports",
+            "rawCode": "G2",
+            "officialTeamId": "98767991926151025",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "TES",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 18
+      },
+      {
+        "officialMatchId": "115660540726095037",
+        "eventId": "riot-115660540726095037",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-25T19:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "MKOI",
+            "label": "Movistar KOI",
+            "rawCode": "MKOI",
+            "officialTeamId": "103461966965149786",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "DK",
+            "label": "Dplus KIA",
+            "rawCode": "DK",
+            "officialTeamId": "100725845018863243",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "DK",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 19
+      },
+      {
+        "officialMatchId": "115660540726095041",
+        "eventId": "riot-115660540726095041",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-25T22:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "LYON",
+            "label": "LYON",
+            "rawCode": "LYON",
+            "officialTeamId": "99566405941863385",
+            "score": 1,
+            "outcome": "loss"
+          },
+          {
+            "id": "GEN",
+            "label": "Gen.G Esports",
+            "rawCode": "GEN",
+            "officialTeamId": "100205573495116443",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "GEN",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 20
+      },
+      {
+        "officialMatchId": "115660540726095049",
+        "eventId": "riot-115660540726095049",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-26T17:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "T1",
+            "label": "T1",
+            "rawCode": "T1",
+            "officialTeamId": "98767991853197861",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "CFO",
+            "label": "CTBC Flying Oyster",
+            "rawCode": "CFO",
+            "officialTeamId": "107700199633958891",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "T1",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 21
+      },
+      {
+        "officialMatchId": "115660540726095051",
+        "eventId": "riot-115660540726095051",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-26T18:00:00Z",
+        "format": "BO1",
+        "bestOf": 1,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "BLG",
+            "label": "BILIBILI GAMING",
+            "rawCode": "BLG",
+            "officialTeamId": "99566404853854212",
+            "score": 1,
+            "outcome": "win"
+          },
+          {
+            "id": "KC",
+            "label": "Karmine Corp",
+            "rawCode": "KC",
+            "officialTeamId": "111692118851466302",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "BLG",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 22
+      },
+      {
+        "officialMatchId": "115660540726095053",
+        "eventId": "riot-115660540726095053",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-26T19:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "TSW",
+            "label": "Team Secret Whales",
+            "rawCode": "TSW",
+            "officialTeamId": "113661839307879869",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "LOS",
+            "label": "LOS",
+            "rawCode": "LOS",
+            "officialTeamId": "109480204628225868",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "LOS",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 23
+      },
+      {
+        "officialMatchId": "115660540726095057",
+        "eventId": "riot-115660540726095057",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-26T22:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "AL",
+            "label": "Anyone's Legend",
+            "rawCode": "AL",
+            "officialTeamId": "99566404856367466",
+            "score": 0,
+            "outcome": "loss"
+          },
+          {
+            "id": "TL",
+            "label": "Team Liquid Alienware",
+            "rawCode": "TLAW",
+            "officialTeamId": "98926509885559666",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "TL",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 24
+      },
+      {
+        "officialMatchId": "115660540726095061",
+        "eventId": "riot-115660540726095061",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-28T20:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "T1",
+            "label": "T1",
+            "rawCode": "T1",
+            "officialTeamId": "98767991853197861",
+            "score": 2,
+            "outcome": "win"
+          },
+          {
+            "id": "MKOI",
+            "label": "Movistar KOI",
+            "rawCode": "MKOI",
+            "officialTeamId": "103461966965149786",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "T1",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 25
+      },
+      {
+        "officialMatchId": "115660540726095065",
+        "eventId": "riot-115660540726095065",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-28T23:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "LYON",
+            "label": "LYON",
+            "rawCode": "LYON",
+            "officialTeamId": "99566405941863385",
+            "score": 1,
+            "outcome": "loss"
+          },
+          {
+            "id": "IG",
+            "label": "Invictus Gaming",
+            "rawCode": "IG",
+            "officialTeamId": "99566404848691211",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "IG",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 26
+      },
+      {
+        "officialMatchId": "115660540726095073",
+        "eventId": "riot-115660540726095073",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-29T20:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "KC",
+            "label": "Karmine Corp",
+            "rawCode": "KC",
+            "officialTeamId": "111692118851466302",
+            "score": 2,
+            "outcome": "win"
+          },
+          {
+            "id": "CFO",
+            "label": "CTBC Flying Oyster",
+            "rawCode": "CFO",
+            "officialTeamId": "107700199633958891",
+            "score": 0,
+            "outcome": "loss"
+          }
+        ],
+        "winnerId": "KC",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 27
+      },
+      {
+        "officialMatchId": "115660540726095069",
+        "eventId": "riot-115660540726095069",
+        "tournamentId": "worlds-2026",
+        "stage": "Swiss",
+        "startsAt": "2026-10-29T23:00:00Z",
+        "format": "BO3",
+        "bestOf": 3,
+        "state": "completed",
+        "teams": [
+          {
+            "id": "BLG",
+            "label": "BILIBILI GAMING",
+            "rawCode": "BLG",
+            "officialTeamId": "99566404853854212",
+            "score": 1,
+            "outcome": "loss"
+          },
+          {
+            "id": "TES",
+            "label": "TOP ESPORTS",
+            "rawCode": "TES",
+            "officialTeamId": "99566404854685458",
+            "score": 2,
+            "outcome": "win"
+          }
+        ],
+        "winnerId": "TES",
+        "pairingsConfirmed": true,
+        "sourceId": "riot-lolesports",
+        "sourceURL": "https://lolesports.com/en-US/",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "captureMethod": "public_official_ssr_html",
+          "identity": "worlds / 2026 / 115660540725177488",
+          "timeField": "EventMatch.startTime",
+          "visibleDatetimeAlsoPresent": false,
+          "scoresAttachedToTeamObjects": true
+        },
+        "officialTournamentId": "115660540725177488",
+        "season": 2026,
+        "round": null,
+        "status": "completed",
+        "scope": "series",
+        "sequence": 28
+      }
+    ],
+    "teams": [
+      {
+        "teamId": "AL",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 4,
+        "gameWins": 0,
+        "gameLosses": 4,
+        "reportedGameWinRatePct": 0,
+        "gd15": -1128,
+        "gdm": -294,
+        "dragonSharePct": 35.7,
+        "firstDragonRate": null,
+        "seriesWins": 0,
+        "seriesLosses": 3,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "BLG",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 6,
+        "gameWins": 3,
+        "gameLosses": 3,
+        "reportedGameWinRatePct": 50,
+        "gd15": -72,
+        "gdm": 86,
+        "dragonSharePct": 50.8,
+        "firstDragonRate": null,
+        "seriesWins": 2,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "CFO",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 5,
+        "gameWins": 1,
+        "gameLosses": 4,
+        "reportedGameWinRatePct": 20,
+        "gd15": 531,
+        "gdm": -233,
+        "dragonSharePct": 48.3,
+        "firstDragonRate": null,
+        "seriesWins": 1,
+        "seriesLosses": 3,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "DK",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 4,
+        "gameWins": 4,
+        "gameLosses": 0,
+        "reportedGameWinRatePct": 100,
+        "gd15": 249,
+        "gdm": 250,
+        "dragonSharePct": 53.3,
+        "firstDragonRate": null,
+        "seriesWins": 3,
+        "seriesLosses": 0,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "G2",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 3,
+        "gameWins": 1,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 33.3,
+        "gd15": 1167,
+        "gdm": -72,
+        "dragonSharePct": 61.1,
+        "firstDragonRate": null,
+        "seriesWins": 1,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "GEN",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 5,
+        "gameWins": 4,
+        "gameLosses": 1,
+        "reportedGameWinRatePct": 80,
+        "gd15": -81,
+        "gdm": 313,
+        "dragonSharePct": 80,
+        "firstDragonRate": null,
+        "seriesWins": 3,
+        "seriesLosses": 0,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "HLE",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 3,
+        "gameWins": 1,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 33.3,
+        "gd15": -311,
+        "gdm": -77,
+        "dragonSharePct": 22.2,
+        "firstDragonRate": null,
+        "seriesWins": 1,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "IG",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 6,
+        "gameWins": 4,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 66.7,
+        "gd15": 1613,
+        "gdm": 81,
+        "dragonSharePct": 70.8,
+        "firstDragonRate": null,
+        "seriesWins": 3,
+        "seriesLosses": 1,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "KC",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 5,
+        "gameWins": 3,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 60,
+        "gd15": -387,
+        "gdm": 139,
+        "dragonSharePct": 53.7,
+        "firstDragonRate": null,
+        "seriesWins": 2,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "LOS",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 4,
+        "gameWins": 2,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 50,
+        "gd15": -760,
+        "gdm": -100,
+        "dragonSharePct": 30.8,
+        "firstDragonRate": null,
+        "seriesWins": 1,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "LYON",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 8,
+        "gameWins": 4,
+        "gameLosses": 4,
+        "reportedGameWinRatePct": 50,
+        "gd15": -1084,
+        "gdm": -46,
+        "dragonSharePct": 33.3,
+        "firstDragonRate": null,
+        "seriesWins": 2,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "MKOI",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 6,
+        "gameWins": 2,
+        "gameLosses": 4,
+        "reportedGameWinRatePct": 33.3,
+        "gd15": -1196,
+        "gdm": -119,
+        "dragonSharePct": 47.1,
+        "firstDragonRate": null,
+        "seriesWins": 2,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "T1",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 5,
+        "gameWins": 4,
+        "gameLosses": 1,
+        "reportedGameWinRatePct": 80,
+        "gd15": 1436,
+        "gdm": 245,
+        "dragonSharePct": 71.4,
+        "firstDragonRate": null,
+        "seriesWins": 3,
+        "seriesLosses": 1,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "TL",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 4,
+        "gameWins": 2,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 50,
+        "gd15": 1264,
+        "gdm": -21,
+        "dragonSharePct": 44.7,
+        "firstDragonRate": null,
+        "seriesWins": 1,
+        "seriesLosses": 2,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "TSW",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 4,
+        "gameWins": 0,
+        "gameLosses": 4,
+        "reportedGameWinRatePct": 0,
+        "gd15": -243,
+        "gdm": -272,
+        "dragonSharePct": 37.9,
+        "firstDragonRate": null,
+        "seriesWins": 0,
+        "seriesLosses": 3,
+        "sourceGameCountMatchesResults": true
+      },
+      {
+        "teamId": "TES",
+        "sourceId": "gol-teams-2026",
+        "grain": "individual_game_aggregate",
+        "games": 6,
+        "gameWins": 4,
+        "gameLosses": 2,
+        "reportedGameWinRatePct": 66.7,
+        "gd15": -164,
+        "gdm": -8,
+        "dragonSharePct": 48.9,
+        "firstDragonRate": null,
+        "seriesWins": 3,
+        "seriesLosses": 1,
+        "sourceGameCountMatchesResults": true
+      }
+    ],
+    "statsObservedAt": "2026-10-30T08:09:59Z",
+    "statsUrl": "https://gol.gg/teams/list/season-ALL/split-ALL/tournament-Worlds%202026%20Main%20Event/",
+    "coverage": {
+      "stage": "Swiss Main Event only",
+      "completedSeries": 28,
+      "completedIndividualGames": 39,
+      "teams": 16,
+      "latestCompletedSourceDate": "2026-10-29",
+      "quarterfinalDrawDate": "2026-10-31",
+      "quarterfinalPairingsConfirmed": false,
+      "qualifiedTeamIds": [
+        "GEN",
+        "DK",
+        "T1",
+        "IG",
+        "TES"
+      ],
+      "notYetAnEightTeamBracket": true
+    },
+    "audit": {
+      "status": "available",
+      "archiveGeneratedAt": "2026-10-22T01:29:14.471Z",
+      "tournamentId": "worlds-2026",
+      "expectedSampleSize": 8,
+      "sampleSize": 8,
+      "favoriteSampleSize": 8,
+      "favHitRate": 0.625,
+      "brier": 0.25447708405131364,
+      "logLoss": 0.7048510611817618,
+      "baselineBrier": 0.25,
+      "baselineLogLoss": 0.6931471805599453,
+      "retainedOldObservationCount": 2,
+      "usedRetainedOldObservationCount": 2,
+      "rows": [
+        {
+          "eventId": "gen-ig",
+          "teamA": "GEN",
+          "teamB": "IG",
+          "winnerId": "GEN",
+          "startsAt": "2026-10-23T17:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.7886510726188174,
+          "outcomeTeamA": 1,
+          "favoriteId": "GEN",
+          "favoriteCorrect": true,
+          "brier": 0.0446683691051764,
+          "logLoss": 0.237431295980071,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 1,
+          "usedRetainedOldObservationCount": 1,
+          "representatives": [
+            {
+              "marketId": "bettery-gen-ig-gen-ig-match-winner",
+              "sourceId": "bettery-gen-ig",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-20T01:40:00Z"
+            },
+            {
+              "marketId": "stake-gen-ig-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "sportsbet-au:gen-ig:match_winner",
+              "sourceId": "sportsbet-au",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:24:41Z"
+            }
+          ],
+          "eventName": "GEN vs IG",
+          "favoriteProbability": 0.7886510726188174,
+          "favoriteHit": true
+        },
+        {
+          "eventId": "hle-tes",
+          "teamA": "HLE",
+          "teamB": "TES",
+          "winnerId": "HLE",
+          "startsAt": "2026-10-23T18:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.7792877348037491,
+          "outcomeTeamA": 1,
+          "favoriteId": "HLE",
+          "favoriteCorrect": true,
+          "brier": 0.04871390400806017,
+          "logLoss": 0.24937493699156088,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-hle-tes-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "bettery-hle-tes-hle-tes-match-winner",
+              "sourceId": "bettery-hle-tes",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-22T01:21:49Z"
+            },
+            {
+              "marketId": "sportsbet-au:hle-tes:match_winner",
+              "sourceId": "sportsbet-au",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:24:41Z"
+            }
+          ],
+          "eventName": "HLE vs TES",
+          "favoriteProbability": 0.7792877348037491,
+          "favoriteHit": true
+        },
+        {
+          "eventId": "blg-mkoi",
+          "teamA": "BLG",
+          "teamB": "MKOI",
+          "winnerId": "MKOI",
+          "startsAt": "2026-10-23T19:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.8064597544601803,
+          "outcomeTeamA": 0,
+          "favoriteId": "BLG",
+          "favoriteCorrect": false,
+          "brier": 0.6503773355639743,
+          "logLoss": 1.6422698008527674,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-blg-mkoi-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "bettery-blg-mkoi-blg-mkoi-match-winner",
+              "sourceId": "bettery-blg-mkoi",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-22T01:21:55Z"
+            },
+            {
+              "marketId": "paddypower-blg-mkoi-match-winner",
+              "sourceId": "paddypower",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:25:00Z"
+            }
+          ],
+          "eventName": "BLG vs MKOI",
+          "favoriteProbability": 0.8064597544601803,
+          "favoriteHit": false
+        },
+        {
+          "eventId": "al-kc",
+          "teamA": "AL",
+          "teamB": "KC",
+          "winnerId": "KC",
+          "startsAt": "2026-10-23T20:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.6611522342091678,
+          "outcomeTeamA": 0,
+          "favoriteId": "AL",
+          "favoriteCorrect": false,
+          "brier": 0.4371222767997743,
+          "logLoss": 1.082204340926748,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-al-kc-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "bettery-al-kc-al-kc-match-winner",
+              "sourceId": "bettery-al-kc",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-22T01:21:49Z"
+            },
+            {
+              "marketId": "paddypower-al-kc-match-winner",
+              "sourceId": "paddypower",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:25:00Z"
+            }
+          ],
+          "eventName": "AL vs KC",
+          "favoriteProbability": 0.6611522342091678,
+          "favoriteHit": false
+        },
+        {
+          "eventId": "g2-dk",
+          "teamA": "G2",
+          "teamB": "DK",
+          "winnerId": "DK",
+          "startsAt": "2026-10-23T21:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.4183262014483212,
+          "outcomeTeamA": 0,
+          "favoriteId": "DK",
+          "favoriteCorrect": true,
+          "brier": 0.17499681081818144,
+          "logLoss": 0.5418454719685215,
+          "operatorGroupCount": 2,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-g2-dk-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "paddypower-g2-dk-match-winner",
+              "sourceId": "paddypower",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:25:00Z"
+            }
+          ],
+          "eventName": "G2 vs DK",
+          "favoriteProbability": 0.5816737985516788,
+          "favoriteHit": true
+        },
+        {
+          "eventId": "tl-cfo",
+          "teamA": "TL",
+          "teamB": "CFO",
+          "winnerId": "CFO",
+          "startsAt": "2026-10-23T22:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.6998923909856076,
+          "outcomeTeamA": 0,
+          "favoriteId": "TL",
+          "favoriteCorrect": false,
+          "brier": 0.4898493589595507,
+          "logLoss": 1.2036141719275817,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 1,
+          "usedRetainedOldObservationCount": 1,
+          "representatives": [
+            {
+              "marketId": "bettery-tl-cfo-tl-cfo-match-winner",
+              "sourceId": "bettery-tl-cfo",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-20T01:40:00Z"
+            },
+            {
+              "marketId": "stake-tl-cfo-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "sportsbet-au:tl-cfo:match_winner",
+              "sourceId": "sportsbet-au",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:24:41Z"
+            }
+          ],
+          "eventName": "TL vs CFO",
+          "favoriteProbability": 0.6998923909856076,
+          "favoriteHit": false
+        },
+        {
+          "eventId": "los-t1",
+          "teamA": "LOS",
+          "teamB": "T1",
+          "winnerId": "T1",
+          "startsAt": "2026-10-23T23:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.1377586795605649,
+          "outcomeTeamA": 0,
+          "favoriteId": "T1",
+          "favoriteCorrect": true,
+          "brier": 0.0189774537942704,
+          "logLoss": 0.14822009339220926,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-los-t1-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "bettery-los-t1-los-t1-match-winner",
+              "sourceId": "bettery-los-t1",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-22T01:21:55Z"
+            },
+            {
+              "marketId": "sportsbet-au:los-t1:match_winner",
+              "sourceId": "sportsbet-au",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:24:41Z"
+            }
+          ],
+          "eventName": "LOS vs T1",
+          "favoriteProbability": 0.8622413204394351,
+          "favoriteHit": true
+        },
+        {
+          "eventId": "tsw-lyon",
+          "teamA": "TSW",
+          "teamB": "LYON",
+          "winnerId": "LYON",
+          "startsAt": "2026-10-24T00:00:00.000Z",
+          "cutoffSource": "official_result",
+          "probabilityTeamA": 0.4136558513565609,
+          "outcomeTeamA": 0,
+          "favoriteId": "LYON",
+          "favoriteCorrect": true,
+          "brier": 0.1711111633615212,
+          "logLoss": 0.5338483774146343,
+          "operatorGroupCount": 3,
+          "retainedOldObservationCount": 0,
+          "usedRetainedOldObservationCount": 0,
+          "representatives": [
+            {
+              "marketId": "stake-tsw-lyon-match-winner",
+              "sourceId": "stake",
+              "operatorGroup": "stake",
+              "observedAt": "2026-10-22T01:24:37Z"
+            },
+            {
+              "marketId": "bettery-tsw-lyon-tsw-lyon-match-winner",
+              "sourceId": "bettery-tsw-lyon",
+              "operatorGroup": "bettery",
+              "observedAt": "2026-10-22T01:21:55Z"
+            },
+            {
+              "marketId": "sportsbet-au:tsw-lyon:match_winner",
+              "sourceId": "sportsbet-au",
+              "operatorGroup": "flutter",
+              "observedAt": "2026-10-22T01:24:41Z"
+            }
+          ],
+          "eventName": "TSW vs LYON",
+          "favoriteProbability": 0.5863441486434391,
+          "favoriteHit": true
+        }
+      ],
+      "excluded": [],
+      "calibrated": false,
+      "definitions": {
+        "brier": "mean((p(teamA)-y(teamA))^2), one binary observation per match",
+        "logLoss": "natural logarithm; mean(-y*ln(p)-(1-y)*ln(1-p))",
+        "consensus": "equal mean of the latest pre-archive, pre-start observation in each operatorGroup"
+      },
+      "notes": [
+        "Eight first-round matches are a small descriptive retrospective, not calibration or predictive validation.",
+        "Only the frozen 2026-10-22 dataset is used. Retained older observations that were visible then are kept.",
+        "No current odds, post-match statistics or fitted parameters enter this audit."
+      ]
+    },
+    "referenceSources": [
+      {
+        "id": "riot-live",
+        "label": "Riot 最新官方賽程與賽果",
+        "url": "https://lolesports.com/en-US/",
+        "status": "available",
+        "statusLabel": "本輪已核實",
+        "observedAt": "2026-10-30T08:20:09.891Z",
+        "checkedAt": "2026-10-30T08:20:09.891Z",
+        "sourceUpdatedAt": null,
+        "note": "固定官方公開頁單次讀取，核對本屆 2026 賽事 ID、隊伍、比分、BO 制式與 UTC。八強四組仍 TBD。",
+        "coverage": "28 場已賽、2 場已知待賽、10 個待定賽程槽"
+      },
+      {
+        "id": "gol-teams-2026",
+        "label": "GOL 本屆隊伍統計",
+        "url": "https://gol.gg/teams/list/season-ALL/split-ALL/tournament-Worlds%202026%20Main%20Event/",
+        "status": "available",
+        "statusLabel": "已核實",
+        "observedAt": "2026-10-30T08:09:59Z",
+        "checkedAt": "2026-10-30T08:09:59Z",
+        "sourceUpdatedAt": null,
+        "note": "16 隊／39 小局；逐隊小局勝負與官方比分吻合。GD@15、GDM、小龍控制為描述性統計；未調整對手強度。",
+        "coverage": "本屆 Main Event，未混入入圍賽或其他賽季"
+      },
+      {
+        "id": "gol-matches-2026",
+        "label": "GOL 本屆對戰紀錄",
+        "url": "https://gol.gg/tournament/tournament-matchlist/Worlds%202026%20Main%20Event/",
+        "status": "snapshot-after-later-timeout",
+        "statusLabel": "沿用已交叉核對快照",
+        "observedAt": "2026-10-30T03:00:43Z",
+        "checkedAt": "2026-10-30T08:09:59Z",
+        "sourceUpdatedAt": null,
+        "note": "較早成功讀取後，稍後重讀逾時；保留原觀測時間。賽果另外與最新 Riot 官方資料逐場核對。",
+        "coverage": "28 場已完成系列賽／39 小局"
+      },
+      {
+        "id": "riot-worlds-results",
+        "label": "Riot 官方賽果頁",
+        "url": "https://lolesports.com/en-US/leagues/worlds",
+        "status": "available",
+        "statusLabel": "已核實",
+        "observedAt": "2026-10-30T08:09:59Z",
+        "checkedAt": "2026-10-30T08:09:59Z",
+        "sourceUpdatedAt": null,
+        "note": "只取 Worlds／Swiss 已完成比分，排除同頁其他賽事。確切 UTC 排程另由官方首頁的公開賽事資料核實。",
+        "coverage": "28 場已完成系列賽"
+      },
+      {
+        "id": "riot-worlds-primer",
+        "label": "Riot 官方賽制",
+        "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "status": "available",
+        "statusLabel": "已核實",
+        "observedAt": "2026-10-30T03:00:43Z",
+        "checkedAt": "2026-10-30T03:00:43Z",
+        "sourceUpdatedAt": null,
+        "note": "三勝晉級、三敗淘汰；BO5 八強對戰尚待公布。文章的賽事日期以來源地區日曆為準，本站逐場換算台灣時間。",
+        "coverage": "官方賽制與階段安排"
+      },
+      {
+        "id": "gol-players-2026",
+        "label": "GOL 選手表（尚未納入）",
+        "url": "https://gol.gg/players/list/season-ALL/split-ALL/tournament-Worlds%202026%20Main%20Event/",
+        "status": "readable-not-ingested",
+        "statusLabel": "未納入數值",
+        "observedAt": "2026-10-30T03:00:43Z",
+        "checkedAt": "2026-10-30T03:00:43Z",
+        "sourceUpdatedAt": null,
+        "note": "頁面可讀，但未完成每位選手隊伍與角色交叉核對，不展示選手數值或假定當場先發。",
+        "coverage": "尚無已核實選手數據"
+      },
+      {
+        "id": "oracles-elixir",
+        "label": "Oracle's Elixir（資料缺口）",
+        "url": "https://oracleselixir.com/data/",
+        "status": "unavailable",
+        "statusLabel": "未取得",
+        "observedAt": "2026-10-30T03:00:43Z",
+        "checkedAt": "2026-10-30T03:00:43Z",
+        "sourceUpdatedAt": null,
+        "note": "未取得可核驗的本屆 Worlds 資料集，沒有用其他月份或國內聯賽代替。",
+        "coverage": "未取得本屆逐局資料"
+      },
+      {
+        "id": "stake",
+        "label": "Stake 賽事盤口",
+        "url": "https://stake.com/sports/upcoming/league-of-legends",
+        "status": "snapshot",
+        "statusLabel": "可讀公開快照",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "checkedAt": "2026-10-30T08:10:07Z",
+        "sourceUpdatedAt": null,
+        "note": "本輪公開列表可讀兩場World Championship 2026 Match Winner - Twoway；直接event頁逾時，仍未取得源端盤價更新時間或可成交性。只計一個Stake來源。",
+        "coverage": "2 場完整系列賽勝負盤；直接事件頁逾時"
+      },
+      {
+        "id": "sportsbet-au",
+        "label": "Sportsbet 賽事盤口",
+        "url": "https://www.sportsbet.com.au/betting/e-sports",
+        "status": "snapshot",
+        "statusLabel": "可讀公開快照",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "checkedAt": "2026-10-30T08:10:07Z",
+        "sourceUpdatedAt": null,
+        "note": "TL–LOS直接事件頁可讀Match Betting及Correct Score(Best of3)；與列表價格不同，直接頁優先。不把同平台不同surface當獨立報價或連續變盤。HLE–G2直接頁本輪逾時。",
+        "coverage": "1 場直接事件系列盤及4個補充盤；另一場候選因盤型不明排除"
+      },
+      {
+        "id": "paddypower",
+        "label": "Paddy Power",
+        "url": "https://www.paddypower.com/esports",
+        "status": "no-complete-current-market",
+        "statusLabel": "未納當前主盤",
+        "observedAt": null,
+        "checkedAt": "2026-10-30T08:10:07Z",
+        "sourceUpdatedAt": null,
+        "note": "只有單邊摘要或地區限制頁，沒有可核實完整雙邊現況。",
+        "coverage": "0 個目前可比系列勝負盤"
+      },
+      {
+        "id": "pinnacle",
+        "label": "Pinnacle",
+        "url": "https://www.pinnacle.com/en/esports/matchups/",
+        "status": "blocked",
+        "statusLabel": "未納當前主盤",
+        "observedAt": null,
+        "checkedAt": "2026-10-30T08:10:07Z",
+        "sourceUpdatedAt": null,
+        "note": "本輪 HTTP 451，沒有取得可用盤價。",
+        "coverage": "0 個目前可比系列勝負盤"
+      },
+      {
+        "id": "b365-uk",
+        "label": "bet365 英國文章",
+        "url": "https://news.bet365.com/en-gb/article/league-of-legends-world-championship-odds/2026101412003173393",
+        "status": "article-reference-only",
+        "statusLabel": "未納當前主盤",
+        "observedAt": null,
+        "checkedAt": "2026-10-30T08:13:02Z",
+        "sourceUpdatedAt": null,
+        "note": "文章時間仍為10月14日；表格不完整，未確認為可成交的當前冠軍盤。僅留研究參考，未計入主分析。",
+        "coverage": "0 個目前可比系列勝負盤"
+      },
+      {
+        "id": "b365-us",
+        "label": "bet365 美國舊文章",
+        "url": "https://news.bet365.com/en-us/article/lol-worlds-2026-guide-schedule-teams-and-betting-odds/2026101515261441496",
+        "status": "stale-article-excluded",
+        "statusLabel": "未納當前主盤",
+        "observedAt": null,
+        "checkedAt": "2026-10-30T08:13:02Z",
+        "sourceUpdatedAt": null,
+        "note": "仍為10月16日的19隊舊文章，含已出局隊伍；已移出當前盤口。",
+        "coverage": "0 個目前可比系列勝負盤"
+      }
+    ],
+    "supplementaryMarkets": [
+      {
+        "id": "sportsbet-tl-los-correct-score",
+        "type": "series_correct_score",
+        "scope": "series",
+        "format": "BO3",
+        "line": null,
+        "complete": true,
+        "selections": [
+          {
+            "id": "TL_2-0",
+            "label": "TL_2-0",
+            "rawOdds": "1.75",
+            "oddsDecimal": 1.75
+          },
+          {
+            "id": "LOS_2-0",
+            "label": "LOS_2-0",
+            "rawOdds": "9.75",
+            "oddsDecimal": 9.75
+          },
+          {
+            "id": "TL_2-1",
+            "label": "TL_2-1",
+            "rawOdds": "3.25",
+            "oddsDecimal": 3.25
+          },
+          {
+            "id": "LOS_2-1",
+            "label": "LOS_2-1",
+            "rawOdds": "6.25",
+            "oddsDecimal": 6.25
+          }
+        ],
+        "eventId": "riot-115660540726095077",
+        "sourceId": "sportsbet-au",
+        "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "sourceUpdatedAt": null,
+        "crawlFreshness": "today",
+        "evidence": {
+          "path": "data/evidence/2026-10-30-odds.txt",
+          "captureMethod": "web-tool",
+          "asOfKnown": false
+        },
+        "note": "Explicitly separate supplementary market; must not masquerade as series match_winner or be fed into its consensus. No independent forecasting model."
+      },
+      {
+        "id": "sportsbet-tl-los-map-1",
+        "type": "map_winner",
+        "scope": "map",
+        "period": "map_1",
+        "line": null,
+        "complete": true,
+        "selections": [
+          {
+            "id": "TL",
+            "label": "TL",
+            "rawOdds": "1.30",
+            "oddsDecimal": 1.3
+          },
+          {
+            "id": "LOS",
+            "label": "LOS",
+            "rawOdds": "3.32",
+            "oddsDecimal": 3.32
+          }
+        ],
+        "eventId": "riot-115660540726095077",
+        "sourceId": "sportsbet-au",
+        "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "sourceUpdatedAt": null,
+        "crawlFreshness": "today",
+        "evidence": {
+          "path": "data/evidence/2026-10-30-odds.txt",
+          "captureMethod": "web-tool",
+          "asOfKnown": false
+        },
+        "note": "Explicitly separate supplementary market; must not masquerade as series match_winner or be fed into its consensus. No independent forecasting model."
+      },
+      {
+        "id": "sportsbet-tl-los-handicap",
+        "type": "map_handicap",
+        "scope": "series",
+        "line": 1.5,
+        "unit": "maps",
+        "complete": true,
+        "selections": [
+          {
+            "id": "TL",
+            "label": "TL",
+            "rawOdds": "1.78",
+            "oddsDecimal": 1.78,
+            "handicap": -1.5
+          },
+          {
+            "id": "LOS",
+            "label": "LOS",
+            "rawOdds": "1.95",
+            "oddsDecimal": 1.95,
+            "handicap": 1.5
+          }
+        ],
+        "eventId": "riot-115660540726095077",
+        "sourceId": "sportsbet-au",
+        "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "sourceUpdatedAt": null,
+        "crawlFreshness": "today",
+        "evidence": {
+          "path": "data/evidence/2026-10-30-odds.txt",
+          "captureMethod": "web-tool",
+          "asOfKnown": false
+        },
+        "note": "Explicitly separate supplementary market; must not masquerade as series match_winner or be fed into its consensus. No independent forecasting model."
+      },
+      {
+        "id": "sportsbet-tl-los-total-maps",
+        "type": "total_maps",
+        "scope": "series",
+        "line": 2.5,
+        "unit": "maps",
+        "complete": true,
+        "selections": [
+          {
+            "id": "OVER",
+            "label": "OVER",
+            "rawOdds": "2.42",
+            "oddsDecimal": 2.42
+          },
+          {
+            "id": "UNDER",
+            "label": "UNDER",
+            "rawOdds": "1.52",
+            "oddsDecimal": 1.52
+          }
+        ],
+        "eventId": "riot-115660540726095077",
+        "sourceId": "sportsbet-au",
+        "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
+        "observedAt": "2026-10-30T08:08:57Z",
+        "sourceUpdatedAt": null,
+        "crawlFreshness": "today",
+        "evidence": {
+          "path": "data/evidence/2026-10-30-odds.txt",
+          "captureMethod": "web-tool",
+          "asOfKnown": false
+        },
+        "note": "Explicitly separate supplementary market; must not masquerade as series match_winner or be fed into its consensus. No independent forecasting model."
+      }
+    ],
+    "surfaceConflicts": [
+      {
+        "sourceId": "sportsbet-au",
+        "fixtureKey": "LOS|TL",
+        "direct": {
+          "url": "https://www.sportsbet.com.au/betting/e-sports/lol-world-championship/team-liquid-v-los-11102457",
+          "rawOdds": [
+            "1.20",
+            "4.40"
+          ],
+          "observedAt": "2026-10-30T08:08:57Z"
+        },
+        "listing": {
+          "url": "https://www.sportsbet.com.au/betting/e-sports",
+          "rawOdds": [
+            "1.17",
+            "4.85"
+          ],
+          "observedAt": "2026-10-30T08:09:47Z"
+        },
+        "resolution": "Direct event wins for representative quote. Differences are not evidence of chronological odds movement because source timestamps unknown.",
+        "eventId": "riot-115660540726095077"
+      }
+    ],
+    "candidateMarkets": [
+      {
+        "type": "match_winner",
+        "period": "match",
+        "line": null,
+        "scope": null,
+        "format": "BO3",
+        "complete": true,
+        "sourceUpdatedAt": null,
+        "evidence": {
+          "path": "work/evidence/update-2026-10-30-odds/observations.txt",
+          "captureMethod": "web-tool",
+          "asOfKnown": false
+        },
+        "observedAt": "2026-10-30T08:09:47Z",
+        "id": "sportsbet-swiss-20261030-hle-g2-list-only",
+        "eventId": "riot-115660540726095081",
+        "fixtureKey": "G2|HLE",
+        "sourceId": "sportsbet-au",
+        "sourceUrl": "https://www.sportsbet.com.au/betting/e-sports",
+        "selections": [
+          {
+            "id": "HLE",
+            "label": "HLE",
+            "rawOdds": "1.17",
+            "oddsDecimal": 1.17
+          },
+          {
+            "id": "G2",
+            "label": "G2",
+            "rawOdds": "4.85",
+            "oddsDecimal": 4.85
+          }
+        ],
+        "officialStartsAt": "2026-10-30T23:00:00Z",
+        "sourceMarketLabel": null,
+        "scopeQuality": "listing-match-context-only",
+        "crawlFreshness": "today",
+        "toolReference": "turn57view0",
+        "status": "requires-scope-review",
+        "note": "Listing identifies exact World Championship match and both sides, but does not expose a market label; direct event page timed out. Prefer not promoting to strict verified series board until format/scope joined and caveat retained.",
+        "excludedFromConsensus": true
+      }
+    ],
+    "missingFields": [
+      "firstDragonRate",
+      "perGameGold15",
+      "verifiedPlayerStats",
+      "confirmedStartingRosters",
+      "confirmedQuarterfinalOpponents",
+      "strengthOfScheduleAdjustment",
+      "outOfSampleModelValidation"
+    ],
+    "modelStatus": "descriptive_context_and_market_pricing_only_no_calibrated_forecast"
+  }
 }
